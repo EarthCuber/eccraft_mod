@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日提交：烈焰棒",
+  "description": "提交3个烈焰棒。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "submit_item",
+      "target": "minecraft:blaze_rod",
+      "count": 3
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:gold_ingot",
+      "min": 24,
+      "max": 24
+    },
+    {
+      "item": "minecraft:magma_cream",
+      "min": 12,
+      "max": 12
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/submit_blaze_rod"
+}

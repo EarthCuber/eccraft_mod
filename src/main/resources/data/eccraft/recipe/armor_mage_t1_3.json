@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "bbb",
+    "bab",
+    "b b"
+  ],
+  "key": {
+    "a":"minecraft:diamond",
+    "b":"#minecraft:wool"
+  },
+  "result": {
+    "id": "eccraft:mage_t1_leggings",
+    "count": 1
+  }
+}

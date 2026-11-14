@@ -1,0 +1,16 @@
+{
+  "speaker": "",
+  "text": "挺厉害嘛，这么快就找到了仓库。",
+  "options": [
+    {
+      "text": "↓",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sever_welcome/beibin_overworld/talk2"
+        }
+      ]
+    }
+  ]
+}

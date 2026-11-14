@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "#eccraft:item_kuangwu_t2",
+    "#eccraft:item_kuangwu_t3",
+    "#eccraft:item_kuangwu_t4",
+    "#eccraft:item_shengwu_t2",
+    "#eccraft:item_shengwu_t3",
+    "#eccraft:item_shengwu_t4",
+    "#eccraft:item_zhiwu_t2",
+    "#eccraft:item_zhiwu_t3",
+    "#eccraft:item_zhiwu_t4"
+  ]
+}

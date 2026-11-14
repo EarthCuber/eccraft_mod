@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "eccraft:item_alchemy_plant_t3_cannibalpetals",
+    "eccraft:item_alchemy_plant_t3_leaf",
+    "eccraft:item_alchemy_plant_t3_star"
+  ]
+}

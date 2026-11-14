@@ -1,0 +1,16 @@
+{
+  "speaker": "",
+  "text": "乐于奉献、勤恳认真、细心谨慎、精诚团结。",
+  "options": [
+    {
+      "text": "↓",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:beibin/overworld/delivery/talk7"
+        }
+      ]
+    }
+  ]
+}

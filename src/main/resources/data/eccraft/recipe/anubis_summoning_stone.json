@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "bbb",
+    "bab",
+    "bbb"
+  ],
+  "key": {
+    "a":"minecraft:ender_eye",
+    "b":"minecraft:sand"
+  },
+  "result": {
+    "id": "eccraft:anubis_summoning_stone",
+    "count": 16
+  }
+}

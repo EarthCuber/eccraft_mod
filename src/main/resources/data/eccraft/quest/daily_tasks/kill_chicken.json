@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日狩猎：鸡",
+  "description": "击杀8只鸡。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "kill",
+      "target": "minecraft:chicken",
+      "count": 8
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:diamond",
+      "min": 8,
+      "max": 8
+    },
+    {
+      "item": "minecraft:egg",
+      "min": 16,
+      "max": 16
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/kill_chicken"
+}

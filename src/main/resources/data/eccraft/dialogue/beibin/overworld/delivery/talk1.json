@@ -1,0 +1,16 @@
+{
+  "speaker": "",
+  "text": "苯环速递，是异或服将军直属第二大公会。由我创办，为异或服官方货运企业，以不求回报、只求贡献为企业精神。\n",
+  "options": [
+    {
+      "text": "↓",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:beibin/overworld/delivery/talk2"
+        }
+      ]
+    }
+  ]
+}

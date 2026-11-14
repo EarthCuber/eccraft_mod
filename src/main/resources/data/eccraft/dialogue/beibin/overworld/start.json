@@ -1,0 +1,104 @@
+{
+  "speaker": "",
+  "text": "欢迎，我是北滨新区的话事人苯环，欢迎来到北滨新区。这是异或服发展较为发达的地方之一。",
+  "options": [
+    {
+      "text": "这是什么地方？",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:beibin/overworld/warehouse/talk1"
+        }
+      ]
+    },
+    {
+      "text": "→终于找到你了。",
+      "conditions": [
+        {
+          "type": "quest_state",
+          "quest": "eccraft:sever_welcome/talk_3",
+          "state": "active"
+        }
+      ],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sever_welcome/beibin_overworld/talk1"
+        }
+      ]
+    },
+    {
+      "text": "关于苯环速递…",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:beibin/overworld/delivery/talk1"
+        }
+      ]
+    },
+    {
+      "text": "→我回来了。",
+      "conditions": [
+        {
+          "type": "quest_state",
+          "quest": "eccraft:sever_welcome/talk_4",
+          "state": "claimed"
+        },
+        {
+          "type": "quest_state",
+          "quest": "eccraft:sever_welcome/talk_5",
+          "state": "available"
+        }
+      ],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sever_welcome/beibin_overworld/talk6"
+        }
+      ]
+    },
+    {
+      "text": "→怎么去天空岛？",
+      "conditions": [
+        {
+          "type": "quest_state",
+          "quest": "eccraft:sever_welcome/talk_5",
+          "state": "active"
+        }
+      ],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sever_welcome/beibin_overworld/talk14"
+        }
+      ]
+    },
+    {
+      "text": "关于天空岛…",
+      "conditions": [
+        {
+          "type": "quest_state",
+          "quest": "eccraft:sever_welcome/talk_5",
+          "state": "claimed"
+        }
+      ],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sever_welcome/beibin_overworld/talk20"
+        }
+      ]
+    },
+    {
+      "text": "再见。",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "close"
+        }
+      ]
+    }
+  ]
+}

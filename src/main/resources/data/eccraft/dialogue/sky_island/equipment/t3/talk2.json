@@ -1,0 +1,25 @@
+{
+  "speaker": "",
+  "text": "T3级别的首领包括阿努比斯、斯芬克斯、冰霜女巫、黑曜石守卫。推荐使用T2及以上的装备进行挑战。当然，不要忘记为你的武器和防具附魔。一个人打不过的话，不妨带上你的小伙伴一起挑战。",
+  "options": [
+    {
+      "text": "还想问别的…",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sky_island/equipment/start"
+        }
+      ]
+    },
+    {
+      "text": "我明白了。",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "close"
+        }
+      ]
+    }
+  ]
+}

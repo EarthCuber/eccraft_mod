@@ -1,0 +1,26 @@
+{
+  "speaker": "",
+  "text": "如果准备好了，就使用副本选择器出发吧！",
+  "options": [
+    {
+      "text": "→准备好了！",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sever_welcome/sky_island/talk6"
+        }
+      ]
+    },
+    {
+      "text": "↑还没准备好…",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sever_welcome/sky_island/talk7"
+        }
+      ]
+    }
+  ]
+}

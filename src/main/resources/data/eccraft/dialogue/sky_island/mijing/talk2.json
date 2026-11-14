@@ -1,0 +1,25 @@
+{
+  "speaker": "",
+  "text": "需要注意的是，大部分首领都需要使用对应的召唤石进行召唤。需要提前准备哦！合成配方可以在工作台的独立分页中查看。",
+  "options": [
+    {
+      "text": "还想问别的…",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sky_island/mijing/start"
+        }
+      ]
+    },
+    {
+      "text": "我明白了。",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "close"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日提交：甘蔗",
+  "description": "提交32个甘蔗。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "submit_item",
+      "target": "minecraft:sugar_cane",
+      "count": 32
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:lapis_lazuli",
+      "min": 16,
+      "max": 16
+    },
+    {
+      "item": "minecraft:paper",
+      "min": 32,
+      "max": 32
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/submit_sugar_cane"
+}

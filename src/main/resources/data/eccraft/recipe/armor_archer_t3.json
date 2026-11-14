@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "bbb",
+    "ac ",
+    "   "
+  ],
+  "key": {
+    "a":"eccraft:item_synthesis_t2_archer",
+    "b":"eccraft:item_synthesis_t3_leather",
+    "c":"eccraft:item_alchemy_potion_equipment_t3_archer"
+  },
+  "result": {
+    "id": "eccraft:item_synthesis_t3_archer",
+    "count": 1
+  }
+}

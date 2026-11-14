@@ -1,0 +1,22 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "destinarpghelper:trigger_stick",
+          "functions": [
+                          {
+                              "function": "set_components",
+                              "components": {
+                                  "custom_name": {"text": "传送法杖框架","color": "aqua","bold": false,"italic":false},
+                                  "custom_model_data": {"floats": [5000017]}
+                              }
+                          }
+          ]
+        }
+      ]
+    }
+  ]
+}

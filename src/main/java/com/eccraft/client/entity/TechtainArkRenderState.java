@@ -1,0 +1,2 @@
+package com.eccraft.client.entity;
+public final class TechtainArkRenderState extends net.minecraft.client.renderer.entity.state.LivingEntityRenderState {public String action="idle";public float actionSeconds;public int dashEnd=34;}

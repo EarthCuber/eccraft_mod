@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "eccraft:spell",
+    "eccraft:frost",
+    "eccraft:healing",
+    "eccraft:critical",
+    "eccraft:provocation",
+    "eccraft:stealth"
+  ]
+}

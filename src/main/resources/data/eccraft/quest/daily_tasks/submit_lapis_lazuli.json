@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日提交：青金石",
+  "description": "提交64个青金石。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "submit_item",
+      "target": "minecraft:lapis_lazuli",
+      "count": 64
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:diamond",
+      "min": 3,
+      "max": 3
+    },
+    {
+      "item": "minecraft:enchanting_table",
+      "min": 1,
+      "max": 1
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/submit_lapis_lazuli"
+}

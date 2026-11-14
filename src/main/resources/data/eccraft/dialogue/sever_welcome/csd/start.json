@@ -1,0 +1,15 @@
+{
+  "speaker": "活姐",
+  "text": "你好，我是异或服务器的服主活姐，欢迎来到异或服务器。",
+  "options": [
+    {
+      "text": "→新人该从哪开始发育？",
+      "conditions": [{"type":"quest_state","quest":"eccraft:sever_welcome/talk_1","state":"active"}],
+      "actions": [{"type":"next","dialogue":"eccraft:sever_welcome/csd/talk_1"}]
+    },
+    {
+      "text": "再见。",
+      "action": {"type":"close"}
+    }
+  ]
+}

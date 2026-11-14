@@ -1,0 +1,21 @@
+{
+  "type": "daily",
+  "title": "每日狩猎：绵羊",
+  "description": "击杀4只绵羊。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "kill",
+      "target": "minecraft:sheep",
+      "count": 4
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:iron_ingot",
+      "min": 12,
+      "max": 12
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/kill_sheep"
+}

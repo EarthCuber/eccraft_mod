@@ -1,0 +1,6 @@
+{
+  "parent": "eccraft:item/staff_shared",
+  "textures": {
+    "particle": "eccraft:item/staff_t2"
+  }
+}

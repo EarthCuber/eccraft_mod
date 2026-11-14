@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "eccraft:mage_custom"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "eccraft:knight_t2"
+      }
+    ]
+  }
+}

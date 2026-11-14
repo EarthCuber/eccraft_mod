@@ -1,0 +1,17 @@
+{
+  "type": "one_time",
+  "page": "eccraft:sever_welcome",
+  "title": "前往北滨",
+  "description": "跟随活姐的指引，从出生点南边的巨大地狱传送门进入地狱上层。前往北滨新区在上层的地狱门。与当地的老大交流。（地狱坐标：-150，-290）",
+  "objectives": [
+    {"id":"dialogue","type":"dialogue","target":"eccraft:test_npc","count":1}
+  ],
+  "display_rewards": [
+    {"item":"minecraft:emerald","min":16,"max":32}
+  ],
+  "experience": 500,
+  "reward_loot_table": "eccraft:quests/sever_welcome/talk_2",
+  "prerequisites": [
+    "eccraft:sever_welcome/talk_1"
+  ]
+}

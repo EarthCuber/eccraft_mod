@@ -1,0 +1,21 @@
+{
+  "type": "daily",
+  "title": "每日狩猎：牛",
+  "description": "击杀4只牛。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "kill",
+      "target": "minecraft:cow",
+      "count": 4
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:iron_ingot",
+      "min": 12,
+      "max": 12
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/kill_cow"
+}

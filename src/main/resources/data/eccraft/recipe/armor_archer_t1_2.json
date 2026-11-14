@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "bab",
+    "bbb",
+    "bbb"
+  ],
+  "key": {
+    "a":"minecraft:diamond",
+    "b":"minecraft:leather"
+  },
+  "result": {
+    "id": "eccraft:archer_t1_chestplate",
+    "count": 1
+  }
+}

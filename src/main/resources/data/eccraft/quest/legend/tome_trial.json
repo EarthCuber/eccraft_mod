@@ -1,0 +1,28 @@
+{
+  "type": "special_daily",
+  "page": "eccraft:legend_tasks",
+  "title": "典之试炼",
+  "description": "击败阿努比斯和黑曜石守卫，完成试炼。需由你亲手击败！",
+  "objectives": [
+    {
+      "id": "kill_anubis",
+      "type": "kill",
+      "target": "eccraft:anubis",
+      "count": 1
+    },
+    {
+      "id": "kill_obsidianguard",
+      "type": "kill",
+      "target": "eccraft:obsidianguard",
+      "count": 1
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/legend/tome_trial",
+  "experience": 500,
+  "display_rewards": [
+    {
+      "item": "eccraft:item_legend_book_2",
+      "count": 1
+    }
+  ]
+}

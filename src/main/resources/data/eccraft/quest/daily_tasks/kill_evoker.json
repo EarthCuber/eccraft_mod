@@ -1,0 +1,31 @@
+{
+  "type": "daily",
+  "title": "每日狩猎：唤魔者",
+  "description": "击杀1只唤魔者。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "kill",
+      "target": "minecraft:evoker",
+      "count": 1
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:ancient_debris",
+      "min": 2,
+      "max": 2
+    },
+    {
+      "item": "minecraft:emerald",
+      "min": 64,
+      "max": 64
+    },
+    {
+      "item": "minecraft:totem_of_undying",
+      "min": 1,
+      "max": 1
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/kill_evoker"
+}

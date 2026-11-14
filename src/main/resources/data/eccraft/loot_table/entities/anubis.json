@@ -1,0 +1,136 @@
+{
+    "pools":[
+        {
+            "rolls":2,
+            "entries":[
+                {
+                    "type":"minecraft:loot_table",
+                    "value": "eccraft:mineral/netherite_scrap_16"
+                }
+            ]
+        },
+        {
+            "rolls":2,
+            "entries":[
+                {
+                    "type":"minecraft:loot_table",
+                    "value": "eccraft:mineral/diamond_8"
+                }
+            ]
+        },
+        {
+            "rolls":4,
+            "entries":[
+                {
+                    "type":"minecraft:loot_table",
+                    "value": "eccraft:alchemy/broken_t3_bow"
+                }
+            ]
+        },
+        {
+            "rolls":2,
+            "entries":[
+                {
+                    "type":"minecraft:loot_table",
+                    "value": "eccraft:alchemy/broken_t3_sword"
+                }
+            ]
+        },
+        {
+            "rolls":2,
+            "entries":[
+                {
+                    "type":"minecraft:loot_table",
+                    "value": "eccraft:alchemy/broken_t3_staff"
+                }
+            ]
+        },
+        {
+            "rolls":6,
+            "entries":[
+                {
+                    "type":"minecraft:loot_table",
+                    "value": "eccraft:alchemy/biology_t3_scorpointail"
+                }
+            ]
+        },
+        {
+            "rolls":6,
+            "entries":[
+                {
+                    "type":"minecraft:loot_table",
+                    "value": "eccraft:alchemy/mineral_t3_crystallization"
+                }
+            ]
+        },
+        {
+            "rolls":2,
+            "entries":[
+                {
+                    "type":"minecraft:loot_table",
+                    "value": "eccraft:alchemy/plant_t3_star"
+                }
+            ]
+        },
+        {
+            "rolls":2,
+            "entries":[
+                {
+                    "type":"minecraft:loot_table",
+                    "value": "eccraft:alchemy/catalyst_t3_skull"
+                }
+            ]
+        },
+        {
+            "rolls":2,
+            "entries":[
+                {
+                    "type":"minecraft:loot_table",
+                    "value": "eccraft:alchemy/catalyst_t3_arcanecore"
+                }
+            ]
+        },
+        {
+            "rolls":2,
+            "entries":[
+                {
+                    "type":"minecraft:loot_table",
+                    "value": "eccraft:alchemy/item_t3_sourcemineral"
+                }
+            ]
+        },
+        {
+            "rolls":2,
+            "entries":[
+                {
+                    "type":"minecraft:loot_table",
+                    "value": "eccraft:alchemy/item_t3_lotus"
+                }
+            ]
+        },
+        {
+            "rolls":2,
+            "entries":[
+                {
+                    "type":"minecraft:loot_table",
+                    "value": "eccraft:alchemy/item_t3_sourcemineral",
+                    "weight": 1
+                },
+                {
+                    "type":"minecraft:loot_table",
+                    "value": "eccraft:alchemy/item_t3_lotus",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "rolls":2,
+            "entries":[
+                {
+                    "type":"minecraft:loot_table",
+                    "value": "eccraft:legend_pieces/60"
+                }
+            ]
+        }
+    ]
+}

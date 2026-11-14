@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "enabled=true": {
+      "model": "eccraft:block/samurai_altar_active"
+    },
+    "enabled=false": {
+      "model": "eccraft:block/samurai_altar_cooldown"
+    }
+  }
+}

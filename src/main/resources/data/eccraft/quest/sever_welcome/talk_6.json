@@ -1,0 +1,52 @@
+{
+  "type": "one_time",
+  "page": "eccraft:sever_welcome",
+  "title": "合成[迷你地球]",
+  "description": "苯环答应帮我合成[迷你地球]。到处搜索一番，找齐所需的材料吧。\n(在此任务处提交,领取奖励后再进行对话。技术限制，任务奖励无法预览该物品。)。",
+  "objectives": [
+    {
+      "id": "submit_snow_block",
+      "type": "submit_item",
+      "target": "minecraft:snow_block",
+      "count": 1
+    },
+    {
+      "id": "submit_sand",
+      "type": "submit_item",
+      "target": "minecraft:sand",
+      "count": 1
+    },
+    {
+      "id": "submit_stone",
+      "type": "submit_item",
+      "target": "minecraft:stone",
+      "count": 1
+    },
+    {
+      "id": "submit_dirt",
+      "type": "submit_item",
+      "target": "minecraft:dirt",
+      "count": 1
+    },
+    {
+      "id": "submit_grass_block",
+      "type": "submit_item",
+      "target": "minecraft:grass_block",
+      "count": 1
+    },
+    {
+      "id": "submit_lapis_block",
+      "type": "submit_item",
+      "target": "minecraft:lapis_block",
+      "count": 4
+    }
+  ],
+  "display_rewards": [
+    {"item":"minecraft:barrier","min":1,"max":1}
+  ],
+  "experience": 100,
+  "reward_loot_table": "eccraft:quests/sever_welcome/talk_6",
+  "prerequisites": [
+    "eccraft:sever_welcome/talk_5"
+  ]
+}

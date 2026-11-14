@@ -1,0 +1,20 @@
+{
+  "speaker": "",
+  "text": "没想到你对这个世界了解地这么快，看来我也不用为你操心了。",
+  "options": [
+    {
+      "text": "↓",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "quest_complete",
+          "quest": "eccraft:sever_welcome/talk_5"
+        },
+        {
+          "type": "next",
+          "dialogue": "eccraft:sever_welcome/beibin_overworld/talk17"
+        }
+      ]
+    }
+  ]
+}

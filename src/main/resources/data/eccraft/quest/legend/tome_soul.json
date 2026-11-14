@@ -1,0 +1,22 @@
+{
+  "type": "special_daily",
+  "page": "eccraft:legend_tasks",
+  "title": "铭刻你的灵魂·典",
+  "description": "击败黑夜女神，铭刻你的灵魂。需由你亲手击败！",
+  "objectives": [
+    {
+      "id": "kill_nightgod",
+      "type": "kill",
+      "target": "eccraft:nightgod",
+      "count": 1
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/legend/tome_soul",
+  "experience": 800,
+  "display_rewards": [
+    {
+      "item": "eccraft:item_legend_book_3",
+      "count": 1
+    }
+  ]
+}

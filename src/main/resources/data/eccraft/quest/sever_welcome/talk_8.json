@@ -1,0 +1,17 @@
+{
+  "type": "one_time",
+  "page": "eccraft:sever_welcome",
+  "title": "前往金蟒湾",
+  "description": "获取[迷你地球]和[传送法杖框架]后，就去金蟒湾找“传送法杖合成师”吧\n（主世界坐标：-2803，441）\n然后使用传送法杖前往天空岛。与EC交谈。\n天空岛似乎在一个独立的秘境中…",
+  "objectives": [
+    {"id":"dialogue","type":"dialogue","target":"eccraft:test_npc","count":1}
+  ],
+  "display_rewards": [
+    {"item":"minecraft:enchanted_golden_apple","min":2,"max":2}
+  ],
+  "experience": 2000,
+  "reward_loot_table": "eccraft:quests/sever_welcome/talk_8",
+  "prerequisites": [
+    "eccraft:sever_welcome/talk_5"
+  ]
+}

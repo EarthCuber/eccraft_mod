@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日提交：竹子",
+  "description": "提交64个竹子。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "submit_item",
+      "target": "minecraft:bamboo",
+      "count": 64
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:emerald",
+      "min": 12,
+      "max": 12
+    },
+    {
+      "item": "minecraft:scaffolding",
+      "min": 32,
+      "max": 32
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/submit_bamboo"
+}

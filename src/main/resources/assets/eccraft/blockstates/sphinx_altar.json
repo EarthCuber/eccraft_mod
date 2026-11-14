@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "enabled=true": {
+      "model": "eccraft:block/sphinx_altar_active"
+    },
+    "enabled=false": {
+      "model": "eccraft:block/sphinx_altar_cooldown"
+    }
+  }
+}

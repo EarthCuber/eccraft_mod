@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "   ",
+    "b b",
+    "b b"
+  ],
+  "key": {
+    "b":"eccraft:item_synthesis_t2_knight"
+  },
+  "result": {
+    "id": "eccraft:knight_t2_boots",
+    "count": 1
+  }
+}

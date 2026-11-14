@@ -1,0 +1,31 @@
+{
+  "type": "daily",
+  "title": "每日狩猎：凋灵骷髅",
+  "description": "击杀3只凋灵骷髅。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "kill",
+      "target": "minecraft:wither_skeleton",
+      "count": 3
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:ancient_debris",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "item": "minecraft:soul_sand",
+      "min": 32,
+      "max": 32
+    },
+    {
+      "item": "minecraft:wither_skeleton_skull",
+      "min": 3,
+      "max": 3
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/kill_wither_skeleton"
+}

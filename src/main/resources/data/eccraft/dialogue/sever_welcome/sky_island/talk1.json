@@ -1,0 +1,16 @@
+{
+  "speaker": "",
+  "text": "看来你是第一次来的冒险家。让我为你介绍一下这里吧。",
+  "options": [
+    {
+      "text": "好的。",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sever_welcome/sky_island/talk2"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日狩猎：旋风人",
+  "description": "击杀1只旋风人。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "kill",
+      "target": "minecraft:breeze",
+      "count": 1
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:diamond",
+      "min": 4,
+      "max": 4
+    },
+    {
+      "item": "minecraft:breeze_rod",
+      "min": 32,
+      "max": 32
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/kill_breeze_small"
+}

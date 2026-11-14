@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日提交：龙息",
+  "description": "提交8个龙息。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "submit_item",
+      "target": "minecraft:dragon_breath",
+      "count": 8
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:ancient_debris",
+      "min": 3,
+      "max": 3
+    },
+    {
+      "item": "minecraft:elytra",
+      "min": 1,
+      "max": 1
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/submit_dragon_breath"
+}

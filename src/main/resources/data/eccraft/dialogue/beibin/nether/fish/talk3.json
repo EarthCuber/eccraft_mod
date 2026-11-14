@@ -1,0 +1,16 @@
+{
+  "speaker": "",
+  "text": "需要在这里和主世界特定的挂机点挂上假人，然后打开这里的开关。这些一般由我来操作，你只需要在箱子里拿走物资。",
+  "options": [
+    {
+      "text": "我明白了。",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:beibin/nether/fish/talk1"
+        }
+      ]
+    }
+  ]
+}

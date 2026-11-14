@@ -1,0 +1,36 @@
+{
+  "speaker": "",
+  "text": "这是独立于主世界、地狱和末地之外的维度。在这个维度中不能破坏和放置方块，且死亡不会掉落！放心挑战首领们吧！",
+  "options": [
+    {
+      "text": "怎么挑战首领？",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sky_island/mijing/talk1"
+        }
+      ]
+    },
+    {
+      "text": "怎么离开这里？",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sky_island/mijing/talk3"
+        }
+      ]
+    },
+    {
+      "text": "没有想问的了…",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sky_island/end"
+        }
+      ]
+    }
+  ]
+}

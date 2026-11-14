@@ -1,0 +1,19 @@
+{
+  "speaker": "",
+  "text": "祝你玩得开心。",
+  "options": [
+    {
+      "text": "再见。",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "quest_accept",
+          "quest": "eccraft:sever_welcome/talk_5"
+        },
+        {
+          "type": "close"
+        }
+      ]
+    }
+  ]
+}

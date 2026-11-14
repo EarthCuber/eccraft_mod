@@ -1,0 +1,15 @@
+{
+  "speaker": "",
+  "text": "没关系。准备好了再来也不迟。",
+  "options": [
+    {
+      "text": "再见。",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "close"
+        }
+      ]
+    }
+  ]
+}

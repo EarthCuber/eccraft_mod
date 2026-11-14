@@ -1,0 +1,16 @@
+{
+  "speaker": "",
+  "text": "对了，在mc中，鞘翅是很重要的出行方式。每个玩家到这里都会拿到一个专属的鞘翅。",
+  "options": [
+    {
+      "text": "↓",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sever_welcome/beibin_overworld/talk11"
+        }
+      ]
+    }
+  ]
+}

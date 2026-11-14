@@ -1,0 +1,42 @@
+{
+    "pools": [
+        {
+            "rolls":1,
+            "entries":[
+                {
+                    "type":"minecraft:item",
+                    "name":"minecraft:bread",
+                    "functions":[
+                        {
+                            "function":"set_count",
+                            "count":{
+                                "type":"uniform",
+                                "min":9,
+                                "max":17
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls":1,
+            "entries":[
+                {
+                    "type":"minecraft:item",
+                    "name":"minecraft:iron_ingot",
+                    "functions":[
+                        {
+                            "function":"set_count",
+                            "count":{
+                                "type":"uniform",
+                                "min":8,
+                                "max":12
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

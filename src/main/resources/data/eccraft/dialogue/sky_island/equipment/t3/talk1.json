@@ -1,0 +1,16 @@
+{
+  "speaker": "",
+  "text": "T3级别装备包括圣殿骑士套装、永恒梦魇套装、堕落天使套装。这些装备需要使用T3级别的材料制作。T3级别的材料由T3级别的首领掉落。",
+  "options": [
+    {
+      "text": "↓",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sky_island/equipment/t3/talk2"
+        }
+      ]
+    }
+  ]
+}

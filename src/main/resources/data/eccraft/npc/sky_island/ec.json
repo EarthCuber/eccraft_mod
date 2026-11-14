@@ -1,0 +1,8 @@
+{
+  "display_name": "EarthCuber",
+  "model": {
+    "type": "mannequin",
+    "player_name": "EarthCuber"
+  },
+  "dialogue": "eccraft:sky_island/start"
+}

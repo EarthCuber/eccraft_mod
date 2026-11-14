@@ -1,0 +1,15 @@
+{
+  "speaker": "",
+  "text": "这里是北滨新区的地狱上层部分，穿过这个地狱门就到北滨新区了。",
+  "options": [
+    {
+      "text": "我知道了。",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "close"
+        }
+      ]
+    }
+  ]
+}

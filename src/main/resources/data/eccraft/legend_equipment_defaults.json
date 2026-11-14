@@ -1,0 +1,691 @@
+{
+  "items": {
+    "legend_sword_1": {
+      "kind": "sword",
+      "stage": 1,
+      "durability": 1500,
+      "enchantability": 10,
+      "power": 0,
+      "damage": 7,
+      "health": 0,
+      "armor": 0,
+      "magicResistance": 0,
+      "damageMultiplier": 1,
+      "enchantments": {
+        "minecraft:unbreaking": 1,
+        "minecraft:looting": 1,
+        "minecraft:sweeping_edge": 1,
+        "eccraft:provocation": 1,
+        "eccraft:critical": 3,
+        "minecraft:sharpness": 3,
+        "minecraft:mending": 1
+      }
+    },
+    "legend_sword_2": {
+      "kind": "sword",
+      "stage": 2,
+      "durability": 2250,
+      "enchantability": 10,
+      "power": 0,
+      "damage": 9,
+      "health": 0,
+      "armor": 0,
+      "magicResistance": 0,
+      "damageMultiplier": 1,
+      "enchantments": {
+        "minecraft:unbreaking": 2,
+        "minecraft:looting": 2,
+        "minecraft:sweeping_edge": 2,
+        "eccraft:provocation": 2,
+        "eccraft:critical": 4,
+        "minecraft:sharpness": 4,
+        "minecraft:mending": 1
+      }
+    },
+    "legend_sword_3": {
+      "kind": "sword",
+      "stage": 3,
+      "durability": 3000,
+      "enchantability": 10,
+      "power": 0,
+      "damage": 11,
+      "health": 0,
+      "armor": 0,
+      "magicResistance": 0,
+      "damageMultiplier": 1,
+      "enchantments": {
+        "minecraft:unbreaking": 3,
+        "minecraft:looting": 3,
+        "minecraft:sweeping_edge": 3,
+        "eccraft:provocation": 3,
+        "eccraft:critical": 5,
+        "minecraft:sharpness": 5,
+        "minecraft:mending": 1
+      }
+    },
+    "legend_sword_4": {
+      "kind": "sword",
+      "stage": 4,
+      "durability": 3750,
+      "enchantability": 10,
+      "power": 0,
+      "damage": 13,
+      "health": 0,
+      "armor": 0,
+      "magicResistance": 0,
+      "damageMultiplier": 1,
+      "enchantments": {}
+    },
+    "legend_shield_1": {
+      "kind": "shield",
+      "stage": 1,
+      "durability": 1500,
+      "enchantability": 10,
+      "power": 0,
+      "damage": 0,
+      "health": 4,
+      "armor": 2,
+      "magicResistance": 2,
+      "damageMultiplier": 1,
+      "enchantments": {
+        "minecraft:unbreaking": 1,
+        "eccraft:provocation": 1,
+        "eccraft:shield_wall": 1,
+        "minecraft:sharpness": 3,
+        "minecraft:mending": 1
+      },
+      "knockback_resistance": 0.16
+    },
+    "legend_shield_2": {
+      "kind": "shield",
+      "stage": 2,
+      "durability": 2250,
+      "enchantability": 10,
+      "power": 0,
+      "damage": 0,
+      "health": 5,
+      "armor": 3,
+      "magicResistance": 3,
+      "damageMultiplier": 1,
+      "enchantments": {
+        "minecraft:unbreaking": 2,
+        "eccraft:provocation": 2,
+        "eccraft:shield_wall": 2,
+        "minecraft:sharpness": 4,
+        "minecraft:mending": 1
+      },
+      "knockback_resistance": 0.16
+    },
+    "legend_shield_3": {
+      "kind": "shield",
+      "stage": 3,
+      "durability": 3000,
+      "enchantability": 10,
+      "power": 0,
+      "damage": 0,
+      "health": 6,
+      "armor": 4,
+      "magicResistance": 4,
+      "damageMultiplier": 1,
+      "enchantments": {
+        "minecraft:unbreaking": 3,
+        "eccraft:provocation": 3,
+        "eccraft:shield_wall": 3,
+        "minecraft:sharpness": 5,
+        "minecraft:mending": 1
+      },
+      "knockback_resistance": 0.16
+    },
+    "legend_shield_4": {
+      "kind": "shield",
+      "stage": 4,
+      "durability": 3750,
+      "enchantability": 10,
+      "power": 0,
+      "damage": 0,
+      "health": 7,
+      "armor": 5,
+      "magicResistance": 5,
+      "damageMultiplier": 1,
+      "enchantments": {},
+      "knockback_resistance": 0.16
+    },
+    "legend_staff_1": {
+      "kind": "staff",
+      "stage": 1,
+      "durability": 600,
+      "enchantability": 10,
+      "power": 0,
+      "damage": 0,
+      "health": 0,
+      "armor": 0,
+      "magicResistance": 0,
+      "damageMultiplier": 0.8,
+      "enchantments": {
+        "minecraft:unbreaking": 1,
+        "eccraft:stealth": 1,
+        "eccraft:spell": 3,
+        "eccraft:critical": 3,
+        "minecraft:mending": 1
+      },
+      "profile": {
+        "basePower": 10,
+        "normalSkillMultiplier": 0.2,
+        "frostSkillMultipliers": [
+          0.3,
+          0.4,
+          0.5
+        ],
+        "healingShotMultipliers": [
+          0.18,
+          0.36,
+          0.72
+        ],
+        "healingSkillMultipliers": [
+          0.09,
+          0.18,
+          0.36
+        ],
+        "slowTicks": 60,
+        "slowAmplifier": 0,
+        "projectileSpeed": 1.5,
+        "projectileLifetime": 100
+      }
+    },
+    "legend_staff_2": {
+      "kind": "staff",
+      "stage": 2,
+      "durability": 900,
+      "enchantability": 10,
+      "power": 0,
+      "damage": 0,
+      "health": 0,
+      "armor": 0,
+      "magicResistance": 0,
+      "damageMultiplier": 0.8,
+      "enchantments": {
+        "minecraft:unbreaking": 2,
+        "eccraft:stealth": 2,
+        "eccraft:spell": 4,
+        "eccraft:critical": 4,
+        "minecraft:mending": 1
+      },
+      "profile": {
+        "basePower": 13,
+        "normalSkillMultiplier": 0.2,
+        "frostSkillMultipliers": [
+          0.3,
+          0.4,
+          0.5
+        ],
+        "healingShotMultipliers": [
+          0.18,
+          0.36,
+          0.72
+        ],
+        "healingSkillMultipliers": [
+          0.09,
+          0.18,
+          0.36
+        ],
+        "slowTicks": 60,
+        "slowAmplifier": 0,
+        "projectileSpeed": 1.5,
+        "projectileLifetime": 100
+      }
+    },
+    "legend_staff_3": {
+      "kind": "staff",
+      "stage": 3,
+      "durability": 1200,
+      "enchantability": 10,
+      "power": 0,
+      "damage": 0,
+      "health": 0,
+      "armor": 0,
+      "magicResistance": 0,
+      "damageMultiplier": 0.8,
+      "enchantments": {
+        "minecraft:unbreaking": 3,
+        "eccraft:stealth": 3,
+        "eccraft:spell": 5,
+        "eccraft:critical": 5,
+        "minecraft:mending": 1
+      },
+      "profile": {
+        "basePower": 16,
+        "normalSkillMultiplier": 0.2,
+        "frostSkillMultipliers": [
+          0.3,
+          0.4,
+          0.5
+        ],
+        "healingShotMultipliers": [
+          0.18,
+          0.36,
+          0.72
+        ],
+        "healingSkillMultipliers": [
+          0.09,
+          0.18,
+          0.36
+        ],
+        "slowTicks": 60,
+        "slowAmplifier": 0,
+        "projectileSpeed": 1.5,
+        "projectileLifetime": 100
+      }
+    },
+    "legend_staff_4": {
+      "kind": "staff",
+      "stage": 4,
+      "durability": 1500,
+      "enchantability": 10,
+      "power": 0,
+      "damage": 0,
+      "health": 0,
+      "armor": 0,
+      "magicResistance": 0,
+      "damageMultiplier": 0.8,
+      "enchantments": {},
+      "profile": {
+        "basePower": 19,
+        "normalSkillMultiplier": 0.2,
+        "frostSkillMultipliers": [
+          0.3,
+          0.4,
+          0.5
+        ],
+        "healingShotMultipliers": [
+          0.18,
+          0.36,
+          0.72
+        ],
+        "healingSkillMultipliers": [
+          0.09,
+          0.18,
+          0.36
+        ],
+        "slowTicks": 60,
+        "slowAmplifier": 0,
+        "projectileSpeed": 1.5,
+        "projectileLifetime": 100
+      }
+    },
+    "legend_holy_staff_1": {
+      "kind": "holy_staff",
+      "stage": 1,
+      "durability": 600,
+      "enchantability": 10,
+      "power": 0,
+      "damage": 0,
+      "health": 0,
+      "armor": 0,
+      "magicResistance": 0,
+      "damageMultiplier": 0.8,
+      "enchantments": {
+        "minecraft:unbreaking": 1,
+        "eccraft:stealth": 1,
+        "eccraft:spell": 3,
+        "eccraft:healing": 1,
+        "minecraft:mending": 1
+      },
+      "profile": {
+        "basePower": 10,
+        "normalSkillMultiplier": 0.2,
+        "frostSkillMultipliers": [
+          0.3,
+          0.4,
+          0.5
+        ],
+        "healingShotMultipliers": [
+          0.18,
+          0.36,
+          0.72
+        ],
+        "healingSkillMultipliers": [
+          0.09,
+          0.18,
+          0.36
+        ],
+        "slowTicks": 60,
+        "slowAmplifier": 0,
+        "projectileSpeed": 1.5,
+        "projectileLifetime": 100
+      }
+    },
+    "legend_holy_staff_2": {
+      "kind": "holy_staff",
+      "stage": 2,
+      "durability": 900,
+      "enchantability": 10,
+      "power": 0,
+      "damage": 0,
+      "health": 0,
+      "armor": 0,
+      "magicResistance": 0,
+      "damageMultiplier": 0.8,
+      "enchantments": {
+        "minecraft:unbreaking": 2,
+        "eccraft:stealth": 2,
+        "eccraft:spell": 4,
+        "eccraft:healing": 2,
+        "minecraft:mending": 1
+      },
+      "profile": {
+        "basePower": 13,
+        "normalSkillMultiplier": 0.7,
+        "frostSkillMultipliers": [
+          0.9,
+          1.1,
+          1.3
+        ],
+        "healingShotMultipliers": [
+          0.5,
+          0.7,
+          0.9
+        ],
+        "healingSkillMultipliers": [
+          0.5,
+          0.7,
+          0.9
+        ],
+        "slowTicks": 60,
+        "slowAmplifier": 0,
+        "projectileSpeed": 1.5,
+        "projectileLifetime": 100
+      }
+    },
+    "legend_holy_staff_3": {
+      "kind": "holy_staff",
+      "stage": 3,
+      "durability": 1200,
+      "enchantability": 10,
+      "power": 0,
+      "damage": 0,
+      "health": 0,
+      "armor": 0,
+      "magicResistance": 0,
+      "damageMultiplier": 1,
+      "enchantments": {
+        "minecraft:unbreaking": 3,
+        "eccraft:stealth": 3,
+        "eccraft:spell": 5,
+        "eccraft:healing": 3,
+        "minecraft:mending": 1
+      },
+      "profile": {
+        "basePower": 16,
+        "normalSkillMultiplier": 0.2,
+        "frostSkillMultipliers": [
+          0.3,
+          0.4,
+          0.5
+        ],
+        "healingShotMultipliers": [
+          0.18,
+          0.36,
+          0.72
+        ],
+        "healingSkillMultipliers": [
+          0.09,
+          0.18,
+          0.36
+        ],
+        "slowTicks": 60,
+        "slowAmplifier": 0,
+        "projectileSpeed": 1.5,
+        "projectileLifetime": 100
+      }
+    },
+    "legend_holy_staff_4": {
+      "kind": "holy_staff",
+      "stage": 4,
+      "durability": 1500,
+      "enchantability": 10,
+      "power": 0,
+      "damage": 0,
+      "health": 0,
+      "armor": 0,
+      "magicResistance": 0,
+      "damageMultiplier": 1,
+      "enchantments": {},
+      "profile": {
+        "basePower": 19,
+        "normalSkillMultiplier": 0.2,
+        "frostSkillMultipliers": [
+          0.3,
+          0.4,
+          0.5
+        ],
+        "healingShotMultipliers": [
+          0.18,
+          0.36,
+          0.72
+        ],
+        "healingSkillMultipliers": [
+          0.09,
+          0.18,
+          0.36
+        ],
+        "slowTicks": 60,
+        "slowAmplifier": 0,
+        "projectileSpeed": 1.5,
+        "projectileLifetime": 100
+      }
+    },
+    "legend_tome_1": {
+      "kind": "tome",
+      "stage": 1,
+      "durability": 600,
+      "enchantability": 10,
+      "power": 10,
+      "damage": 0,
+      "health": 0,
+      "armor": 0,
+      "magicResistance": 0,
+      "damageMultiplier": 1,
+      "enchantments": {
+        "minecraft:unbreaking": 1,
+        "eccraft:stealth": 1,
+        "eccraft:spell": 3,
+        "eccraft:critical": 3,
+        "minecraft:mending": 1
+      }
+    },
+    "legend_tome_2": {
+      "kind": "tome",
+      "stage": 2,
+      "durability": 900,
+      "enchantability": 10,
+      "power": 13,
+      "damage": 0,
+      "health": 0,
+      "armor": 0,
+      "magicResistance": 0,
+      "damageMultiplier": 1,
+      "enchantments": {
+        "minecraft:unbreaking": 2,
+        "eccraft:stealth": 2,
+        "eccraft:spell": 4,
+        "eccraft:critical": 4,
+        "minecraft:mending": 1
+      }
+    },
+    "legend_tome_3": {
+      "kind": "tome",
+      "stage": 3,
+      "durability": 1200,
+      "enchantability": 10,
+      "power": 16,
+      "damage": 0,
+      "health": 0,
+      "armor": 0,
+      "magicResistance": 0,
+      "damageMultiplier": 1,
+      "enchantments": {
+        "minecraft:unbreaking": 3,
+        "eccraft:stealth": 3,
+        "eccraft:spell": 5,
+        "eccraft:critical": 5,
+        "minecraft:mending": 1
+      }
+    },
+    "legend_tome_4": {
+      "kind": "tome",
+      "stage": 4,
+      "durability": 1500,
+      "enchantability": 10,
+      "power": 19,
+      "damage": 0,
+      "health": 0,
+      "armor": 0,
+      "magicResistance": 0,
+      "damageMultiplier": 1,
+      "enchantments": {}
+    },
+    "legend_bow_1": {
+      "kind": "bow",
+      "stage": 1,
+      "durability": 600,
+      "enchantability": 10,
+      "power": 10,
+      "damage": 0,
+      "health": 0,
+      "armor": 0,
+      "magicResistance": 0,
+      "damageMultiplier": 0.9,
+      "enchantments": {
+        "minecraft:unbreaking": 1,
+        "eccraft:explosive": 1,
+        "eccraft:stealth": 1,
+        "minecraft:power": 3,
+        "eccraft:critical": 3,
+        "minecraft:mending": 1
+      }
+    },
+    "legend_bow_2": {
+      "kind": "bow",
+      "stage": 2,
+      "durability": 900,
+      "enchantability": 10,
+      "power": 13,
+      "damage": 0,
+      "health": 0,
+      "armor": 0,
+      "magicResistance": 0,
+      "damageMultiplier": 0.9,
+      "enchantments": {
+        "minecraft:unbreaking": 2,
+        "eccraft:explosive": 2,
+        "eccraft:stealth": 2,
+        "minecraft:power": 4,
+        "eccraft:critical": 4,
+        "minecraft:mending": 1
+      }
+    },
+    "legend_bow_3": {
+      "kind": "bow",
+      "stage": 3,
+      "durability": 1200,
+      "enchantability": 10,
+      "power": 16,
+      "damage": 0,
+      "health": 0,
+      "armor": 0,
+      "magicResistance": 0,
+      "damageMultiplier": 0.9,
+      "enchantments": {
+        "minecraft:unbreaking": 3,
+        "eccraft:explosive": 3,
+        "eccraft:stealth": 3,
+        "minecraft:power": 5,
+        "eccraft:critical": 5,
+        "minecraft:mending": 1
+      }
+    },
+    "legend_bow_4": {
+      "kind": "bow",
+      "stage": 4,
+      "durability": 1500,
+      "enchantability": 10,
+      "power": 19,
+      "damage": 0,
+      "health": 0,
+      "armor": 0,
+      "magicResistance": 0,
+      "damageMultiplier": 0.9,
+      "enchantments": {}
+    },
+    "legend_quiver_1": {
+      "kind": "quiver",
+      "stage": 1,
+      "durability": 600,
+      "enchantability": 10,
+      "power": 10,
+      "damage": 0,
+      "health": 0,
+      "armor": 0,
+      "magicResistance": 0,
+      "damageMultiplier": 0.9,
+      "enchantments": {
+        "minecraft:unbreaking": 1,
+        "eccraft:stealth": 1,
+        "minecraft:power": 3,
+        "eccraft:critical": 3,
+        "minecraft:mending": 1
+      }
+    },
+    "legend_quiver_2": {
+      "kind": "quiver",
+      "stage": 2,
+      "durability": 900,
+      "enchantability": 10,
+      "power": 13,
+      "damage": 0,
+      "health": 0,
+      "armor": 0,
+      "magicResistance": 0,
+      "damageMultiplier": 0.9,
+      "enchantments": {
+        "minecraft:unbreaking": 2,
+        "eccraft:stealth": 2,
+        "minecraft:power": 4,
+        "eccraft:critical": 4,
+        "minecraft:mending": 1
+      }
+    },
+    "legend_quiver_3": {
+      "kind": "quiver",
+      "stage": 3,
+      "durability": 1200,
+      "enchantability": 10,
+      "power": 16,
+      "damage": 0,
+      "health": 0,
+      "armor": 0,
+      "magicResistance": 0,
+      "damageMultiplier": 0.9,
+      "enchantments": {
+        "minecraft:unbreaking": 3,
+        "eccraft:stealth": 3,
+        "minecraft:power": 5,
+        "eccraft:critical": 5,
+        "minecraft:mending": 1
+      }
+    },
+    "legend_quiver_4": {
+      "kind": "quiver",
+      "stage": 4,
+      "durability": 1500,
+      "enchantability": 10,
+      "power": 19,
+      "damage": 0,
+      "health": 0,
+      "armor": 0,
+      "magicResistance": 0,
+      "damageMultiplier": 0.9,
+      "enchantments": {}
+    }
+  }
+}

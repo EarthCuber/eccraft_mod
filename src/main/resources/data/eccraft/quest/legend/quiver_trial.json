@@ -1,0 +1,28 @@
+{
+  "type": "special_daily",
+  "page": "eccraft:legend_tasks",
+  "title": "袋之试炼",
+  "description": "击败斯芬克斯和黑曜石守卫，完成试炼。需由你亲手击败！",
+  "objectives": [
+    {
+      "id": "kill_sphinx",
+      "type": "kill",
+      "target": "eccraft:sphinx",
+      "count": 1
+    },
+    {
+      "id": "kill_obsidianguard",
+      "type": "kill",
+      "target": "eccraft:obsidianguard",
+      "count": 1
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/legend/quiver_trial",
+  "experience": 500,
+  "display_rewards": [
+    {
+      "item": "eccraft:item_legend_quiver_2",
+      "count": 1
+    }
+  ]
+}

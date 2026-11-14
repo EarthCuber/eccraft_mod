@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日提交：小麦",
+  "description": "提交32个小麦。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "submit_item",
+      "target": "minecraft:wheat",
+      "count": 32
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:emerald",
+      "min": 16,
+      "max": 16
+    },
+    {
+      "item": "minecraft:bread",
+      "min": 16,
+      "max": 16
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/submit_wheat"
+}

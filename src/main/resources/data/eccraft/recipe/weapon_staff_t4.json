@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " bb",
+    " ab",
+    "ac "
+  ],
+  "key": {
+    "a":"eccraft:item_synthesis_t4_knight",
+    "b":"eccraft:item_synthesis_t4_mage",
+    "c":"eccraft:item_synthesis_t4_brokenstaff"
+  },
+  "result": {
+    "id": "eccraft:staff_t4",
+    "count": 1
+  }
+}

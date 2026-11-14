@@ -1,0 +1,10 @@
+{
+  "speaker": "活姐",
+  "text": "我们的服务器有许多玩家们自发建立起来的聚落和基地，大部分基地乐于接待新人。",
+  "options": [
+    {
+      "text": "↓",
+      "actions": [{"type":"next","dialogue":"eccraft:sever_welcome/csd/talk_2"}]
+    }
+  ]
+}

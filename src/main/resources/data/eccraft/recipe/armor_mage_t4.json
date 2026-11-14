@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "cdc",
+    "cbc",
+    "cac"
+  ],
+  "key": {
+    "a":"eccraft:item_synthesis_t4_fragment",
+    "b":"eccraft:item_alchemy_potion_equipment_t4_mage",
+    "c":"eccraft:item_synthesis_t4_rhizome",
+    "d":"eccraft:item_synthesis_t3_mage"
+  },
+  "result": {
+    "id": "eccraft:item_synthesis_t4_mage",
+    "count": 1
+  }
+}

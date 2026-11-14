@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa ",
+    "aa ",
+    "aa "
+  ],
+  "key": {
+    "a":"eccraft:item_synthesis_t3_archer"
+  },
+  "result": {
+    "id": "eccraft:quiver_t3",
+    "count": 1
+  }
+}

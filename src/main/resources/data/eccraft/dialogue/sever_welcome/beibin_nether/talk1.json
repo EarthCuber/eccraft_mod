@@ -1,0 +1,16 @@
+{
+  "speaker": "",
+  "text": "你就是活姐说的新人吧？我来带你前往物资仓库。",
+  "options": [
+    {
+      "text": "是我。",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sever_welcome/beibin_nether/talk2"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "speaker": "",
+  "text": "拿到基础的资源后，你也可以物色心仪的地块、打造自己的基地了。",
+  "options": [
+    {
+      "text": "↓",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sever_welcome/beibin_overworld/talk8"
+        }
+      ]
+    }
+  ]
+}

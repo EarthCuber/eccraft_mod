@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日狩猎：劫掠兽",
+  "description": "击杀1只劫掠兽。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "kill",
+      "target": "minecraft:ravager",
+      "count": 1
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:ancient_debris",
+      "min": 2,
+      "max": 2
+    },
+    {
+      "item": "minecraft:saddle",
+      "min": 1,
+      "max": 1
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/kill_ravager"
+}

@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日狩猎：河豚",
+  "description": "击杀2只河豚。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "kill",
+      "target": "minecraft:pufferfish",
+      "count": 2
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:diamond",
+      "min": 4,
+      "max": 4
+    },
+    {
+      "item": "minecraft:wet_sponge",
+      "min": 2,
+      "max": 2
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/kill_pufferfish"
+}

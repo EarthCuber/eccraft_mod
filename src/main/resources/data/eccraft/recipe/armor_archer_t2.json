@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "bbb",
+    "ccc",
+    "a  "
+  ],
+  "key": {
+    "a":"minecraft:diamond",
+    "b":"minecraft:leather",
+    "c":"eccraft:item_synthesis_t2_blood"
+  },
+  "result": {
+    "id": "eccraft:item_synthesis_t2_archer",
+    "count": 1
+  }
+}

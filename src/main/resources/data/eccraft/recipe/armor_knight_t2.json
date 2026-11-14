@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "bbb",
+    "ccc",
+    "a  "
+  ],
+  "key": {
+    "a":"minecraft:diamond",
+    "b":"minecraft:iron_ingot",
+    "c":"eccraft:item_synthesis_t2_blackiron"
+  },
+  "result": {
+    "id": "eccraft:item_synthesis_t2_knight",
+    "count": 1
+  }
+}

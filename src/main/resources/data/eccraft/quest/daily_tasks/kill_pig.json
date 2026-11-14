@@ -1,0 +1,21 @@
+{
+  "type": "daily",
+  "title": "每日狩猎：猪",
+  "description": "击杀4只猪。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "kill",
+      "target": "minecraft:pig",
+      "count": 4
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:iron_ingot",
+      "min": 12,
+      "max": 12
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/kill_pig"
+}

@@ -1,0 +1,16 @@
+{
+  "speaker": "",
+  "text": "这里就是北滨新区的仓库。当然物资也不一定都在仓库里，也可能散落在各个地方。",
+  "options": [
+    {
+      "text": "↓",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sever_welcome/beibin_overworld/talk3"
+        }
+      ]
+    }
+  ]
+}

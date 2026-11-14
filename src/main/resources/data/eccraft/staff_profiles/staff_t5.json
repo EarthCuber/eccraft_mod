@@ -1,0 +1,28 @@
+{
+  "_note": "临时调试参数；basePower采用已确认法强。正式平衡前需确认其余值。修改后重启游戏。",
+  "durability": 1536,
+  "enchantability": 10,
+  "profile": {
+    "basePower": 24,
+    "normalSkillMultiplier": 0.7,
+    "frostSkillMultipliers": [
+      0.9,
+      1.1,
+      1.3
+    ],
+    "healingShotMultipliers": [
+      0.5,
+      0.7,
+      0.9
+    ],
+    "healingSkillMultipliers": [
+      0.5,
+      0.7,
+      0.9
+    ],
+    "slowTicks": 60,
+    "slowAmplifier": 0,
+    "projectileSpeed": 1.5,
+    "projectileLifetime": 100
+  }
+}

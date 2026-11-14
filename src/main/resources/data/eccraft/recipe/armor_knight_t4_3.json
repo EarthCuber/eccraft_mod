@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "bbb",
+    "b b",
+    "b b"
+  ],
+  "key": {
+    "b":"eccraft:item_synthesis_t4_knight"
+  },
+  "result": {
+    "id": "eccraft:knight_t4_leggings",
+    "count": 1
+  }
+}

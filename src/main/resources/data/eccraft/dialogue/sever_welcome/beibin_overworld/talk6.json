@@ -1,0 +1,16 @@
+{
+  "speaker": "",
+  "text": "很好，看来你已经学会了如何在基地中获取物资。",
+  "options": [
+    {
+      "text": "↓",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sever_welcome/beibin_overworld/talk7"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "daily",
+  "title": "每日狩猎：骆驼尸壳",
+  "description": "击杀1只骆驼尸壳。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "kill",
+      "target": "minecraft:camel_husk",
+      "count": 1
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:ancient_debris",
+      "min": 4,
+      "max": 4
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/kill_camel_husk"
+}

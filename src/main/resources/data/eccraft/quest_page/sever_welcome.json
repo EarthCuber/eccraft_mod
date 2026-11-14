@@ -1,0 +1,11 @@
+{"title":"新手任务","icon":"minecraft:wooden_pickaxe","order":2,"type":"one_time","quests":[
+    "eccraft:sever_welcome/talk_1",
+    "eccraft:sever_welcome/talk_2",
+    "eccraft:sever_welcome/talk_3",
+    "eccraft:sever_welcome/talk_4",
+    "eccraft:sever_welcome/talk_5",
+    "eccraft:sever_welcome/talk_6",
+    "eccraft:sever_welcome/talk_7",
+    "eccraft:sever_welcome/talk_8",
+    "eccraft:sever_welcome/talk_9"
+]}

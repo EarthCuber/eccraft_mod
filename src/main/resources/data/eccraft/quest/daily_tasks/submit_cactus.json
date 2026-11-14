@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日提交：仙人掌",
+  "description": "提交32个仙人掌。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "submit_item",
+      "target": "minecraft:cactus",
+      "count": 32
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:gold_ingot",
+      "min": 8,
+      "max": 8
+    },
+    {
+      "item": "minecraft:green_dye",
+      "min": 32,
+      "max": 32
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/submit_cactus"
+}

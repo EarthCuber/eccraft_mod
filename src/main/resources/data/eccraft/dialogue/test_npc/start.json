@@ -1,0 +1,29 @@
+{
+  "speaker": "任务测试员",
+  "text": "这是 NPC 与任务系统的第一版测试对话。你可以依次测试接取、完成和领取奖励。",
+  "options": [
+    {
+      "text": "接取测试任务",
+      "conditions": [{"type":"quest_state","quest":"eccraft:npc_test/talk","state":"available"}],
+      "actions": [{"type":"quest_accept","quest":"eccraft:npc_test/talk"}]
+    },
+    {
+      "text": "完成测试任务",
+      "conditions": [{"type":"quest_state","quest":"eccraft:npc_test/talk","state":"active"}],
+      "actions": [{"type":"quest_complete","quest":"eccraft:npc_test/talk"}]
+    },
+    {
+      "text": "领取测试奖励",
+      "conditions": [{"type":"quest_state","quest":"eccraft:npc_test/talk","state":"completed"}],
+      "actions": [{"type":"quest_claim","quest":"eccraft:npc_test/talk"}]
+    },
+    {
+      "text": "继续交谈",
+      "action": {"type":"next","dialogue":"eccraft:test_npc/about"}
+    },
+    {
+      "text": "离开",
+      "action": {"type":"close"}
+    }
+  ]
+}

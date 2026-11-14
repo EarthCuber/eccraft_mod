@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " bb",
+    " ab",
+    "a  "
+  ],
+  "key": {
+    "a":"minecraft:iron_ingot",
+    "b":"#minecraft:wool"
+  },
+  "result": {
+    "id": "eccraft:staff_t1",
+    "count": 1
+  }
+}

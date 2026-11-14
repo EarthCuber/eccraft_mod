@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "cdc",
+    "cbc",
+    "cac"
+  ],
+  "key": {
+    "a":"eccraft:item_synthesis_t4_devilblood",
+    "b":"eccraft:item_alchemy_potion_equipment_t4_archer",
+    "c":"eccraft:item_synthesis_t4_bloodfur",
+    "d":"eccraft:item_synthesis_t3_archer"
+  },
+  "result": {
+    "id": "eccraft:item_synthesis_t4_archer",
+    "count": 1
+  }
+}

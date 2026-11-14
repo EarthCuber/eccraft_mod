@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日狩猎：潜影贝",
+  "description": "击杀1只潜影贝。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "kill",
+      "target": "minecraft:shulker",
+      "count": 1
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:diamond",
+      "min": 8,
+      "max": 8
+    },
+    {
+      "item": "minecraft:lapis_lazuli",
+      "min": 8,
+      "max": 8
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/kill_shulker_small"
+}

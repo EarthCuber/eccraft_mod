@@ -1,0 +1,15 @@
+{
+  "speaker": "",
+  "text": "如果你有任何物资需求，都可以联系我。给我发物品清单，我会为你备货。",
+  "options": [
+    {
+      "text": "再见。",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "close"
+        }
+      ]
+    }
+  ]
+}

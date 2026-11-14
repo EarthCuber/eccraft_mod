@@ -1,0 +1,16 @@
+{
+  "speaker": "",
+  "text": "T5级别装备包括无畏勇气套装、羽落星辰套装、神圣信念套装。这些装备需要使用T5级别的材料制作。T5级别的材料由T5级别的首领掉落。",
+  "options": [
+    {
+      "text": "↓",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sky_island/equipment/t5/talk2"
+        }
+      ]
+    }
+  ]
+}

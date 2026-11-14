@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "enabled=true": {
+      "model": "eccraft:block/techtain_ark_altar_active"
+    },
+    "enabled=false": {
+      "model": "eccraft:block/techtain_ark_altar_cooldown"
+    }
+  }
+}

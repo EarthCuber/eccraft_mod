@@ -1,0 +1,22 @@
+{
+  "type": "special_daily",
+  "page": "eccraft:legend_tasks",
+  "title": "铭刻你的灵魂·盾",
+  "description": "击败城堡核心，铭刻你的灵魂。需由你亲手击败！",
+  "objectives": [
+    {
+      "id": "kill_castlecore",
+      "type": "kill",
+      "target": "eccraft:castlecore",
+      "count": 1
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/legend/shield_soul",
+  "experience": 800,
+  "display_rewards": [
+    {
+      "item": "eccraft:item_legend_shield_3",
+      "count": 1
+    }
+  ]
+}

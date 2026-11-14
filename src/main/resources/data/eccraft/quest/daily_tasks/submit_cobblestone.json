@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日提交：圆石",
+  "description": "提交64个圆石。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "submit_item",
+      "target": "minecraft:cobblestone",
+      "count": 64
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:coal",
+      "min": 16,
+      "max": 16
+    },
+    {
+      "item": "minecraft:iron_ingot",
+      "min": 4,
+      "max": 4
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/submit_cobblestone"
+}

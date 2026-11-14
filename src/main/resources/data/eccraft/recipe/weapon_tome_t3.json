@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "bb ",
+    "ab ",
+    "   "
+  ],
+  "key": {
+    "a":"eccraft:item_synthesis_t3_archer",
+    "b":"eccraft:item_synthesis_t3_mage"
+  },
+  "result": {
+    "id": "eccraft:tome_t3",
+    "count": 1
+  }
+}

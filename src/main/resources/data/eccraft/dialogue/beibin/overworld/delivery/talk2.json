@@ -1,0 +1,16 @@
+{
+  "speaker": "",
+  "text": "主营内容为服内大型供需对接审核与批准工作、中小型建筑/奇观/机器/基础设施工程资源派送工作、全服公用战略性红石机械检修工作以及全服玩家户籍管理工作。\n",
+  "options": [
+    {
+      "text": "↓",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:beibin/overworld/delivery/talk3"
+        }
+      ]
+    }
+  ]
+}

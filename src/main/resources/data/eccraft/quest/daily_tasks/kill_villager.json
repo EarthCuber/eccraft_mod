@@ -1,0 +1,27 @@
+{
+  "type": "daily",
+  "title": "每日狩猎：村民",
+  "description": "击杀1只村民。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "kill",
+      "target": "minecraft:villager",
+      "count": 1
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:emerald",
+      "min": 64,
+      "max": 64
+    },
+    {
+      "item": "minecraft:ominous_bottle",
+      "min": 1,
+      "max": 1,
+      "ominous_bottle_amplifier": 4
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/kill_villager"
+}

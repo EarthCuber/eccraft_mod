@@ -1,0 +1,36 @@
+{
+  "speaker": "",
+  "text": "对比T级武器，“传说武器匠”带来了强度更高、成长上限也更高的传说武器。当然，传说武器的造价也会更高。需要在与首领的战斗中收集传说武器碎片，在“传说武器匠”处将碎片打造成武器。",
+  "options": [
+    {
+      "text": "传说武器碎片的爆率如何？",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sky_island/legend/talk1"
+        }
+      ]
+    },
+    {
+      "text": "传说武器的强度如何？",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sky_island/legend/talk2"
+        }
+      ]
+    },
+    {
+      "text": "没什么想问的了…",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sky_island/end"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "daily",
+  "title": "每日狩猎：尸壳",
+  "description": "击杀2只尸壳。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "kill",
+      "target": "minecraft:husk",
+      "count": 2
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:iron_ingot",
+      "min": 16,
+      "max": 16
+    },
+    {
+      "item": "minecraft:leather",
+      "min": 32,
+      "max": 32
+    },
+    {
+      "item": "minecraft:sand",
+      "min": 64,
+      "max": 64
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/kill_husk"
+}

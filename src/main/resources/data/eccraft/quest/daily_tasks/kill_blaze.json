@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日狩猎：烈焰人",
+  "description": "击杀3只烈焰人。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "kill",
+      "target": "minecraft:blaze",
+      "count": 3
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:ancient_debris",
+      "min": 2,
+      "max": 2
+    },
+    {
+      "item": "minecraft:blaze_rod",
+      "min": 12,
+      "max": 12
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/kill_blaze"
+}

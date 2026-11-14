@@ -1,0 +1,16 @@
+{
+  "speaker": "",
+  "text": "T2级别装备包括骑士套装、狩猎套装、能量套装。这些装备需要使用T2级别的材料制作。T2级别的材料由T2级别的首领掉落。",
+  "options": [
+    {
+      "text": "↓",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sky_island/equipment/t2/talk2"
+        }
+      ]
+    }
+  ]
+}

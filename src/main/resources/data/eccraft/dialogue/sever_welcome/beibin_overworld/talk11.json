@@ -1,0 +1,16 @@
+{
+  "speaker": "",
+  "text": "不过，想要获得这个鞘翅，需要击败首领“鲜美大生蚝”。最好弄一套趁手的装备再去挑战。",
+  "options": [
+    {
+      "text": "↓",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sever_welcome/beibin_overworld/talk12"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "speaker": "",
+  "text": "去吧，祝你一路顺利！",
+  "options": [
+    {
+      "text": "再见。",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "close"
+        }
+      ]
+    }
+  ]
+}

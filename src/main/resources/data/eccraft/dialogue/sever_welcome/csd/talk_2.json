@@ -1,0 +1,14 @@
+{
+  "speaker": "活姐",
+  "text": "我推荐你先前往“北滨新区”，那里的资源容易获取。",
+  "options": [
+    {
+      "text": "我从没听过这个地方。",
+      "actions": [{"type":"next","dialogue":"eccraft:sever_welcome/csd/talk_3"}]
+    },
+    {
+      "text": "我该怎么去那地方？",
+      "actions": [{"type":"next","dialogue":"eccraft:sever_welcome/csd/talk_3"}]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "one_time",
+  "page": "eccraft:sever_welcome",
+  "title": "初来乍到",
+  "description": "与活姐交谈，了解服务器。（主世界坐标：-5，-131）",
+  "objectives": [
+    {"id":"dialogue","type":"dialogue","target":"eccraft:test_npc","count":1}
+  ],
+  "display_rewards": [
+    {"item":"minecraft:iron_ingot","min":8,"max":12},
+    {"item":"minecraft:bread","min":9,"max":17}
+  ],
+  "experience": 500,
+  "reward_loot_table": "eccraft:quests/sever_welcome/talk_1"
+}

@@ -1,0 +1,379 @@
+{
+  "_note": "Ordinary relative weights; level 0 rare entries use rankWeights. Rare rolls only on option 3; preview is protected.",
+  "extraVanillaWeight": 30,
+  "rankWeights": [
+    5,
+    3,
+    2
+  ],
+  "profiles": {
+    "staff": {
+      "vanillaReference": "self",
+      "normal": {
+        "minecraft:unbreaking": {
+          "weight": 50,
+          "maxLevel": 3
+        },
+        "eccraft:spell": {
+          "weight": 30,
+          "maxLevel": 4
+        },
+        "eccraft:critical": {
+          "weight": 20,
+          "maxLevel": 4
+        }
+      },
+      "rare": {
+        "eccraft:spell": {
+          "chance": 0.05,
+          "level": 5
+        },
+        "eccraft:critical": {
+          "chance": 0.05,
+          "level": 5
+        },
+        "eccraft:healing": {
+          "chance": 0.02,
+          "level": 0,
+          "group": "staff_route"
+        },
+        "eccraft:frost": {
+          "chance": 0.02,
+          "level": 0,
+          "group": "staff_route"
+        },
+        "eccraft:stealth": {
+          "chance": 0.04,
+          "level": 0,
+          "group": ""
+        }
+      }
+    },
+    "tome": {
+      "vanillaReference": "self",
+      "normal": {
+        "minecraft:unbreaking": {
+          "weight": 50,
+          "maxLevel": 3
+        },
+        "eccraft:spell": {
+          "weight": 30,
+          "maxLevel": 4
+        },
+        "eccraft:critical": {
+          "weight": 20,
+          "maxLevel": 4
+        }
+      },
+      "rare": {
+        "eccraft:spell": {
+          "chance": 0.05,
+          "level": 5
+        },
+        "eccraft:critical": {
+          "chance": 0.05,
+          "level": 5
+        },
+        "eccraft:stealth": {
+          "chance": 0.04,
+          "level": 0,
+          "group": ""
+        }
+      }
+    },
+    "mage_armor": {
+      "vanillaReference": "armor",
+      "normal": {
+        "minecraft:unbreaking": {
+          "weight": 50,
+          "maxLevel": 3
+        },
+        "eccraft:spell": {
+          "weight": 30,
+          "maxLevel": 4
+        },
+        "eccraft:critical": {
+          "weight": 10,
+          "maxLevel": 4
+        },
+        "minecraft:protection": {
+          "weight": 50,
+          "maxLevel": 4
+        },
+        "minecraft:fire_protection": {
+          "weight": 30,
+          "maxLevel": 4
+        },
+        "minecraft:blast_protection": {
+          "weight": 30,
+          "maxLevel": 4
+        },
+        "minecraft:projectile_protection": {
+          "weight": 30,
+          "maxLevel": 4
+        },
+        "minecraft:thorns": {
+          "weight": 30,
+          "maxLevel": 3
+        }
+      },
+      "rare": {
+        "eccraft:spell": {
+          "chance": 0.05,
+          "level": 5
+        },
+        "eccraft:critical": {
+          "chance": 0.05,
+          "level": 5
+        },
+        "eccraft:stealth": {
+          "chance": 0.04,
+          "level": 0,
+          "group": ""
+        }
+      }
+    },
+    "bow": {
+      "vanillaReference": "bow",
+      "normal": {
+        "minecraft:unbreaking": {
+          "weight": 50,
+          "maxLevel": 3
+        },
+        "minecraft:power": {
+          "weight": 30,
+          "maxLevel": 4
+        },
+        "eccraft:critical": {
+          "weight": 20,
+          "maxLevel": 4
+        }
+      },
+      "rare": {
+        "minecraft:power": {
+          "chance": 0.05,
+          "level": 5
+        },
+        "eccraft:critical": {
+          "chance": 0.05,
+          "level": 5
+        },
+        "eccraft:explosive": {
+          "chance": 0.02,
+          "level": 0,
+          "group": ""
+        },
+        "eccraft:stealth": {
+          "chance": 0.04,
+          "level": 0,
+          "group": ""
+        }
+      }
+    },
+    "quiver": {
+      "vanillaReference": "bow",
+      "normal": {
+        "minecraft:unbreaking": {
+          "weight": 50,
+          "maxLevel": 3
+        },
+        "minecraft:power": {
+          "weight": 30,
+          "maxLevel": 4
+        },
+        "eccraft:critical": {
+          "weight": 20,
+          "maxLevel": 4
+        }
+      },
+      "rare": {
+        "minecraft:power": {
+          "chance": 0.05,
+          "level": 5
+        },
+        "eccraft:critical": {
+          "chance": 0.05,
+          "level": 5
+        },
+        "eccraft:stealth": {
+          "chance": 0.04,
+          "level": 0,
+          "group": ""
+        }
+      }
+    },
+    "archer_armor": {
+      "vanillaReference": "armor",
+      "normal": {
+        "minecraft:unbreaking": {
+          "weight": 50,
+          "maxLevel": 3
+        },
+        "minecraft:power": {
+          "weight": 30,
+          "maxLevel": 4
+        },
+        "eccraft:critical": {
+          "weight": 10,
+          "maxLevel": 4
+        },
+        "minecraft:protection": {
+          "weight": 50,
+          "maxLevel": 4
+        },
+        "minecraft:fire_protection": {
+          "weight": 30,
+          "maxLevel": 4
+        },
+        "minecraft:blast_protection": {
+          "weight": 30,
+          "maxLevel": 4
+        },
+        "minecraft:projectile_protection": {
+          "weight": 30,
+          "maxLevel": 4
+        },
+        "minecraft:thorns": {
+          "weight": 30,
+          "maxLevel": 3
+        }
+      },
+      "rare": {
+        "minecraft:power": {
+          "chance": 0.05,
+          "level": 5
+        },
+        "eccraft:critical": {
+          "chance": 0.05,
+          "level": 5
+        },
+        "eccraft:stealth": {
+          "chance": 0.04,
+          "level": 0,
+          "group": ""
+        }
+      }
+    },
+    "sword": {
+      "vanillaReference": "sword",
+      "normal": {
+        "minecraft:unbreaking": {
+          "weight": 50,
+          "maxLevel": 3
+        },
+        "minecraft:sharpness": {
+          "weight": 30,
+          "maxLevel": 4
+        },
+        "eccraft:critical": {
+          "weight": 20,
+          "maxLevel": 4
+        }
+      },
+      "rare": {
+        "minecraft:sharpness": {
+          "chance": 0.05,
+          "level": 5
+        },
+        "eccraft:critical": {
+          "chance": 0.05,
+          "level": 5
+        },
+        "eccraft:provocation": {
+          "chance": 0.04,
+          "level": 0,
+          "group": ""
+        }
+      }
+    },
+    "shield": {
+      "vanillaReference": "chest",
+      "normal": {
+        "minecraft:unbreaking": {
+          "weight": 50,
+          "maxLevel": 3
+        },
+        "minecraft:sharpness": {
+          "weight": 30,
+          "maxLevel": 4
+        },
+        "eccraft:critical": {
+          "weight": 20,
+          "maxLevel": 4
+        }
+      },
+      "rare": {
+        "minecraft:sharpness": {
+          "chance": 0.05,
+          "level": 5
+        },
+        "eccraft:critical": {
+          "chance": 0.05,
+          "level": 5
+        },
+        "eccraft:provocation": {
+          "chance": 0.04,
+          "level": 0,
+          "group": ""
+        },
+        "eccraft:shield_wall": {
+          "chance": 0.02,
+          "level": 0,
+          "group": ""
+        }
+      }
+    },
+    "knight_armor": {
+      "vanillaReference": "armor",
+      "normal": {
+        "minecraft:unbreaking": {
+          "weight": 50,
+          "maxLevel": 3
+        },
+        "minecraft:sharpness": {
+          "weight": 30,
+          "maxLevel": 4
+        },
+        "eccraft:critical": {
+          "weight": 10,
+          "maxLevel": 4
+        },
+        "minecraft:protection": {
+          "weight": 50,
+          "maxLevel": 4
+        },
+        "minecraft:fire_protection": {
+          "weight": 30,
+          "maxLevel": 4
+        },
+        "minecraft:blast_protection": {
+          "weight": 30,
+          "maxLevel": 4
+        },
+        "minecraft:projectile_protection": {
+          "weight": 30,
+          "maxLevel": 4
+        },
+        "minecraft:thorns": {
+          "weight": 30,
+          "maxLevel": 3
+        }
+      },
+      "rare": {
+        "minecraft:sharpness": {
+          "chance": 0.05,
+          "level": 5
+        },
+        "eccraft:critical": {
+          "chance": 0.05,
+          "level": 5
+        },
+        "eccraft:provocation": {
+          "chance": 0.04,
+          "level": 0,
+          "group": ""
+        }
+      }
+    }
+  }
+}

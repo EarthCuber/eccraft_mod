@@ -1,0 +1,52 @@
+{
+  "type": "one_time",
+  "page": "eccraft:sever_welcome",
+  "title": "合成[传送法杖框架]",
+  "description": "苯环答应帮我合成[传送法杖框架]。到处搜索一番，找齐所需的材料吧。\n(在此任务处提交,领取奖励后再进行对话。技术限制，任务奖励无法预览该物品。)",
+  "objectives": [
+    {
+      "id": "submit_gold_ingot",
+      "type": "submit_item",
+      "target": "minecraft:gold_ingot",
+      "count": 11
+    },
+    {
+      "id": "submit_gold_ingot",
+      "type": "submit_item",
+      "target": "minecraft:iron_ingot",
+      "count": 2
+    },
+    {
+      "id": "submit_gold_ingot",
+      "type": "submit_item",
+      "target": "minecraft:diamond",
+      "count": 1
+    },
+    {
+      "id": "submit_gold_ingot",
+      "type": "submit_item",
+      "target": "minecraft:lapis_block",
+      "count": 1
+    },
+    {
+      "id": "submit_gold_ingot",
+      "type": "submit_item",
+      "target": "minecraft:amethyst_block",
+      "count": 1
+    },
+    {
+      "id": "submit_gold_ingot",
+      "type": "submit_item",
+      "target": "minecraft:netherite_ingot",
+      "count": 1
+    }
+  ],
+  "display_rewards": [
+    {"item":"minecraft:barrier","min":1,"max":1}
+  ],
+  "experience": 100,
+  "reward_loot_table": "class:quests/sever_welcome/talk_7",
+  "prerequisites": [
+    "eccraft:sever_welcome/talk_5"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "cooldownTicks": 200,
+  "movementTicks": 5,
+  "movementDistance": 5,
+  "durabilityCost": 1,
+  "explosionRadius": 3,
+  "explosionMultipliers": [
+    0.1,
+    0.2,
+    0.4
+  ],
+  "explosiveChance": 0.01,
+  "rankWeights": [
+    5,
+    3,
+    2
+  ],
+  "arrowLifetimeTicks": 100,
+  "swordDistance": 10,
+  "bowDistance": 8,
+  "swordCooldownTicks": 160,
+  "bowCooldownTicks": 100
+}

@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日提交：火药",
+  "description": "提交32个火药。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "submit_item",
+      "target": "minecraft:gunpowder",
+      "count": 32
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:diamond",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "item": "minecraft:tnt",
+      "min": 16,
+      "max": 16
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/submit_gunpowder"
+}

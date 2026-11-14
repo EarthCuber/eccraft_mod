@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "bbb",
+    "bab",
+    "bbb"
+  ],
+  "key": {
+    "a":"minecraft:ender_eye",
+    "b":"minecraft:chiseled_stone_bricks"
+  },
+  "result": {
+    "id": "eccraft:castlecore_summoning_stone",
+    "count": 16
+  }
+}

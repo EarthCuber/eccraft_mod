@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "eccraft:item/legend_quiver_4_2d"
+  }
+}

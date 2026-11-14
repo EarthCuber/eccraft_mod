@@ -1,0 +1,35 @@
+{
+    "pools": [
+        {
+            "rolls":1,
+            "entries":[
+                {
+                    "type":"minecraft:item",
+                    "name":"eccraft:techtain_ark_summoning_stone",
+                    "functions":[
+                        {
+                            "function":"set_count",
+                            "count":2
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "rolls":1,
+            "entries":[
+                {
+                    "type":"minecraft:item",
+                    "name":"eccraft:item_copper_coin",
+                    "functions":[
+                        {
+                            "function":"set_count",
+                            "count":16
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

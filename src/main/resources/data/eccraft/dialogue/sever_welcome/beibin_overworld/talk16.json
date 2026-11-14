@@ -1,0 +1,28 @@
+{
+  "speaker": "",
+  "text": "可能你还没有学会[迷你地球]和[传送法杖框架]的合成方式。你可以将其所需的材料交给我，我来帮你合成。（详情查看任务列表）",
+  "options": [
+    {
+      "text": "好的，谢谢你。",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "quest_complete",
+          "quest": "eccraft:sever_welcome/talk_5"
+        },
+        {
+          "type": "quest_accept",
+          "quest": "eccraft:sever_welcome/talk_6"
+        },
+        {
+          "type": "quest_accept",
+          "quest": "eccraft:sever_welcome/talk_7"
+        },
+        {
+          "type": "next",
+          "dialogue": "eccraft:sever_welcome/beibin_overworld/talk17"
+        }
+      ]
+    }
+  ]
+}

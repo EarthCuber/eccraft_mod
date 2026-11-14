@@ -1,0 +1,8 @@
+{
+  "display_name": "J-Taiping(活姐)",
+  "model": {
+    "type": "mannequin",
+    "player_name": "J-Taiping"
+  },
+  "dialogue": "eccraft:sever_welcome/csd/start"
+}

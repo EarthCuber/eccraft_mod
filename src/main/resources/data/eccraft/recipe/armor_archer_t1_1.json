@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "bbb",
+    "bab",
+    "   "
+  ],
+  "key": {
+    "a":"minecraft:diamond",
+    "b":"minecraft:leather"
+  },
+  "result": {
+    "id": "eccraft:archer_t1_helmet",
+    "count": 1
+  }
+}

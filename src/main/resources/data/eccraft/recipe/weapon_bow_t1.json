@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab ",
+    "a b",
+    "ab "
+  ],
+  "key": {
+    "a":"iron_ingot",
+    "b":"leather"
+  },
+  "result": {
+    "id": "eccraft:bow_t1",
+    "count": 1
+  }
+}

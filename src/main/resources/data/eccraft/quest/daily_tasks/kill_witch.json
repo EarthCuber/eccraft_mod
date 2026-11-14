@@ -1,0 +1,31 @@
+{
+  "type": "daily",
+  "title": "每日狩猎：女巫",
+  "description": "击杀1只女巫。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "kill",
+      "target": "minecraft:witch",
+      "count": 1
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:diamond",
+      "min": 6,
+      "max": 6
+    },
+    {
+      "item": "minecraft:glowstone",
+      "min": 16,
+      "max": 16
+    },
+    {
+      "item": "minecraft:redstone",
+      "min": 32,
+      "max": 32
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/kill_witch"
+}

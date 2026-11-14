@@ -1,0 +1,12 @@
+{
+    "replace":  false,
+    "values":  [
+                  "minecraft:invisibility",
+                  "minecraft:poison",
+                  "minecraft:wither",
+                  "minecraft:levitation",
+                  "minecraft:wind_charged",
+                  "minecraft:weaving",
+                  "minecraft:infested"
+               ]
+}

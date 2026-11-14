@@ -1,0 +1,36 @@
+{
+  "speaker": "",
+  "text": "有任何需要，都可以随时回来。",
+  "options": [
+    {
+      "text": "谢谢苯环！",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sever_welcome/beibin_overworld/talk9"
+        }
+      ]
+    },
+    {
+      "text": "谢谢苯环！！",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sever_welcome/beibin_overworld/talk9"
+        }
+      ]
+    },
+    {
+      "text": "谢谢苯环！！！",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sever_welcome/beibin_overworld/talk9"
+        }
+      ]
+    }
+  ]
+}

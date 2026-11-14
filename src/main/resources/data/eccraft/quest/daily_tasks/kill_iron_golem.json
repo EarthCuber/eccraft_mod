@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日狩猎：铁傀儡",
+  "description": "击杀4只铁傀儡。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "kill",
+      "target": "minecraft:iron_golem",
+      "count": 4
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:diamond",
+      "min": 4,
+      "max": 4
+    },
+    {
+      "item": "minecraft:iron_ingot",
+      "min": 32,
+      "max": 32
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/kill_iron_golem"
+}

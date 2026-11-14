@@ -1,0 +1,16 @@
+{
+  "speaker": "",
+  "text": "只要平时有在游玩异或服，肯定能胜任这份责任。不过，如果想要轻松顺利地进行送货，以下能力是必不可少的。",
+  "options": [
+    {
+      "text": "↓",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:beibin/overworld/delivery/talk5"
+        }
+      ]
+    }
+  ]
+}

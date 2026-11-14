@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日狩猎：发光鱿鱼",
+  "description": "击杀2只发光鱿鱼。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "kill",
+      "target": "minecraft:glow_squid",
+      "count": 2
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:lapis_lazuli",
+      "min": 32,
+      "max": 32
+    },
+    {
+      "item": "minecraft:deepslate_diamond_ore",
+      "min": 2,
+      "max": 2
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/kill_glow_squid"
+}

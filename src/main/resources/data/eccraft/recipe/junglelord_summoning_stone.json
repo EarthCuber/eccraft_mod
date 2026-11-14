@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "bbb",
+    "bab",
+    "bbb"
+  ],
+  "key": {
+    "a":"minecraft:ender_eye",
+    "b":"minecraft:stone_bricks"
+  },
+  "result": {
+    "id": "eccraft:junglelord_summoning_stone",
+    "count": 16
+  }
+}

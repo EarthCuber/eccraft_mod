@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "bbb",
+    "bbb",
+    "bbb"
+  ],
+  "key": {
+    "b":"eccraft:item_silver_coin"
+  },
+  "result": {
+    "id": "eccraft:item_gold_coin",
+    "count": 1
+  }
+}

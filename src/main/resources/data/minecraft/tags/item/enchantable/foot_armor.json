@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "eccraft:mage_t1_boots",
+    "eccraft:mage_t2_boots",
+    "eccraft:mage_t3_boots",
+    "eccraft:mage_t4_boots",
+    "eccraft:mage_t5_boots"
+  ]
+}

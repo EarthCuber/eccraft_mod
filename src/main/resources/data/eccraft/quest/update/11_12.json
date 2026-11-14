@@ -1,0 +1,19 @@
+{
+  "type": "one_time",
+  "page": "eccraft:update",
+  "title": "11.12更新",
+  "description": "添加新功能：地标\n默认快捷键：“K”",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "submit_item",
+      "target": "minecraft:dirt",
+      "count": 1
+    }
+  ],
+  "display_rewards": [
+    {"item":"eccraft:item_copper_coin","min":8,"max":8}
+  ],
+  "experience": 500,
+  "reward_loot_table": "eccraft:quests/update/11_12"
+}

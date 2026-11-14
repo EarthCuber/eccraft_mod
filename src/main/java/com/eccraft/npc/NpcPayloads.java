@@ -1,0 +1,7 @@
+package com.eccraft.npc;
+import com.eccraft.Eccraft;import net.minecraft.network.RegistryFriendlyByteBuf;import net.minecraft.network.codec.StreamCodec;import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
+public final class NpcPayloads{private NpcPayloads(){}
+ public record Open(int entityId,String json)implements CustomPacketPayload{public static final Type<Open> TYPE=new Type<>(Eccraft.id("npc_open"));public static final StreamCodec<RegistryFriendlyByteBuf,Open> CODEC=StreamCodec.ofMember((v,b)->{b.writeInt(v.entityId);b.writeUtf(v.json,262144);},b->new Open(b.readInt(),b.readUtf(262144)));public Type<? extends CustomPacketPayload> type(){return TYPE;}}
+ public record Choose(int entityId,String dialogue,int option)implements CustomPacketPayload{public static final Type<Choose> TYPE=new Type<>(Eccraft.id("npc_choose"));public static final StreamCodec<RegistryFriendlyByteBuf,Choose> CODEC=StreamCodec.ofMember((v,b)->{b.writeInt(v.entityId);b.writeUtf(v.dialogue);b.writeInt(v.option);},b->new Choose(b.readInt(),b.readUtf(),b.readInt()));public Type<? extends CustomPacketPayload> type(){return TYPE;}}
+ public record Close(int entityId)implements CustomPacketPayload{public static final Type<Close> TYPE=new Type<>(Eccraft.id("npc_close"));public static final StreamCodec<RegistryFriendlyByteBuf,Close> CODEC=StreamCodec.ofMember((v,b)->b.writeInt(v.entityId),b->new Close(b.readInt()));public Type<? extends CustomPacketPayload> type(){return TYPE;}}
+}

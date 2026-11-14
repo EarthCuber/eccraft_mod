@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "bbb",
+    "ccc",
+    "a  "
+  ],
+  "key": {
+    "a":"minecraft:diamond",
+    "b":"#minecraft:wool",
+    "c":"eccraft:item_synthesis_t2_tear"
+  },
+  "result": {
+    "id": "eccraft:item_synthesis_t2_mage",
+    "count": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "daily",
+  "title": "每日提交：旋风棒",
+  "description": "提交8个旋风棒。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "submit_item",
+      "target": "minecraft:breeze_rod",
+      "count": 8
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:diamond",
+      "min": 3,
+      "max": 3
+    },
+    {
+      "item": "minecraft:trial_key",
+      "min": 4,
+      "max": 4
+    },
+    {
+      "item": "minecraft:ominous_trial_key",
+      "min": 4,
+      "max": 4
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/submit_breeze_rod"
+}

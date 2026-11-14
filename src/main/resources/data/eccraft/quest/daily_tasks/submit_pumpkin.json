@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日提交：南瓜",
+  "description": "提交16个南瓜。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "submit_item",
+      "target": "minecraft:pumpkin",
+      "count": 16
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:emerald",
+      "min": 16,
+      "max": 16
+    },
+    {
+      "item": "minecraft:pumpkin_pie",
+      "min": 16,
+      "max": 16
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/submit_pumpkin"
+}

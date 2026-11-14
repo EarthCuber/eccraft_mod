@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab ",
+    "acb",
+    "ab "
+  ],
+  "key": {
+    "a":"eccraft:item_synthesis_t4_knight",
+    "b":"eccraft:item_synthesis_t4_archer",
+    "c":"eccraft:item_synthesis_t4_brokenbow"
+  },
+  "result": {
+    "id": "eccraft:bow_t4",
+    "count": 1
+  }
+}

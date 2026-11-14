@@ -1,0 +1,16 @@
+{
+  "speaker": "",
+  "text": "在旁边的告示牌上选择你要挑战的首领，然后右键旁边的告示牌即可前往。你还可以使用“组建队伍”功能在公屏发送组队邀请，让所有人快捷地与你一同进行挑战。",
+  "options": [
+    {
+      "text": "↓",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sky_island/mijing/talk2"
+        }
+      ]
+    }
+  ]
+}

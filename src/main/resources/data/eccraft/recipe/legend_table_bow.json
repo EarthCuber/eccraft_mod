@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:netherite_ingot",
+    "b": "eccraft:item_legend_bow_3",
+    "c": "minecraft:mossy_stone_bricks"
+  },
+  "result": {
+    "id": "eccraft:legend_table_bow",
+    "count": 1
+  }
+}

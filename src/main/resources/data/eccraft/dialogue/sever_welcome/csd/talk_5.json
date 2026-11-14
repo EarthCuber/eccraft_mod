@@ -1,0 +1,10 @@
+{
+  "speaker": "活姐",
+  "text": "去吧，祝你一路顺风！",
+  "options": [
+    {
+      "text": "再见！",
+      "actions": [{"type":"close"},{"type":"quest_complete","quest":"eccraft:sever_welcome/talk_1"},{"type":"quest_accept","quest":"eccraft:sever_welcome/talk_2"}]
+    }
+  ]
+}

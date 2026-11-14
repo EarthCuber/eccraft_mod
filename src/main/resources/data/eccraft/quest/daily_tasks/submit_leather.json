@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日提交：皮革",
+  "description": "提交16个皮革。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "submit_item",
+      "target": "minecraft:leather",
+      "count": 16
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:iron_ingot",
+      "min": 12,
+      "max": 12
+    },
+    {
+      "item": "minecraft:rabbit_hide",
+      "min": 64,
+      "max": 64
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/submit_leather"
+}

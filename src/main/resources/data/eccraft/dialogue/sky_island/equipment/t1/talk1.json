@@ -1,0 +1,16 @@
+{
+  "speaker": "",
+  "text": "T1级别装备包括铁质骑士套装、皮革射手套装、粗布法师套装。这些是最基础的套装，可以用原版的材料进行制作，是高性价比的选择。",
+  "options": [
+    {
+      "text": "↓",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sky_island/equipment/t1/talk2"
+        }
+      ]
+    }
+  ]
+}

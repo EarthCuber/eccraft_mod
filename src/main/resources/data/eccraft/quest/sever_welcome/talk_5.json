@@ -1,0 +1,16 @@
+{
+  "type": "one_time",
+  "page": "eccraft:sever_welcome",
+  "title": "前往天空岛",
+  "description": "苯环说让我去天空岛弄到鞘翅，但是天空岛在哪呢？再问问苯环吧。",
+  "objectives": [
+    {"id":"dialogue","type":"dialogue","target":"eccraft:test_npc","count":1}
+  ],
+  "display_rewards": [
+  ],
+  "experience": 100,
+  "reward_loot_table": "eccraft:empty",
+  "prerequisites": [
+    "eccraft:sever_welcome/talk_4"
+  ]
+}

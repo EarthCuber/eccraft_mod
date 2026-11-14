@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日狩猎：末影人",
+  "description": "击杀4只末影人。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "kill",
+      "target": "minecraft:enderman",
+      "count": 4
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:gold_ingot",
+      "min": 32,
+      "max": 32
+    },
+    {
+      "item": "minecraft:ender_eye",
+      "min": 8,
+      "max": 8
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/kill_enderman_small"
+}

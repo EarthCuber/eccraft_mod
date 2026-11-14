@@ -1,0 +1,31 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": [
+          "gui",
+          "ground",
+          "firstperson_righthand",
+          "firstperson_lefthand",
+          "thirdperson_righthand",
+          "thirdperson_lefthand"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "eccraft:item/mage_t3_helmet_icon"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:special",
+      "base": "eccraft:item/mage_t3_helmet",
+      "model": {
+        "type": "eccraft:mage_armor_glb",
+        "model": "eccraft:models/armor/equipment_mage_t3_1.glb",
+        "texture": "eccraft:textures/armor/equipment_mage_t3.png"
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type":"minecraft:item",
+                    "name":"eccraft:item_synthesis_t3_lotus",
+                    "functions":[
+                        {
+                            "function":"set_count",
+                            "count":{
+                                "type":"uniform",
+                                "min":20,
+                                "max":28
+                            }
+                        }
+                    ]
+                }
+            ] 
+        }
+    ]
+}

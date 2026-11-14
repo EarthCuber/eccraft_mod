@@ -1,0 +1,23 @@
+{
+  "speaker": "",
+  "text": "祝冒险家一举成功！",
+  "options": [
+    {
+      "text": "再见。",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "quest_complete",
+          "quest": "eccraft:sever_welcome/talk_8"
+        },
+        {
+          "type": "quest_accept",
+          "quest": "eccraft:sever_welcome/talk_9"
+        },
+        {
+          "type": "close"
+        }
+      ]
+    }
+  ]
+}

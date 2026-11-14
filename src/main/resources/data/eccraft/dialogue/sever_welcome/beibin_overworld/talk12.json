@@ -1,0 +1,16 @@
+{
+  "speaker": "",
+  "text": "如果你准备好了，就去“天空岛”找EC（EarthCuber）吧，他是那里的管理员。",
+  "options": [
+    {
+      "text": "↓",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sever_welcome/beibin_overworld/talk13"
+        }
+      ]
+    }
+  ]
+}

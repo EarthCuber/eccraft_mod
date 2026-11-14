@@ -1,0 +1,31 @@
+{
+  "type": "daily",
+  "title": "每日狩猎：恶魂",
+  "description": "击杀1只恶魂。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "kill",
+      "target": "minecraft:ghast",
+      "count": 1
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:ancient_debris",
+      "min": 2,
+      "max": 2
+    },
+    {
+      "item": "minecraft:ghast_tear",
+      "min": 32,
+      "max": 32
+    },
+    {
+      "item": "minecraft:dried_ghast",
+      "min": 1,
+      "max": 1
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/kill_ghast"
+}

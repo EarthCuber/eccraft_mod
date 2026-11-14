@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日狩猎：鱿鱼",
+  "description": "击杀8只鱿鱼。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "kill",
+      "target": "minecraft:squid",
+      "count": 8
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:gold_ingot",
+      "min": 16,
+      "max": 16
+    },
+    {
+      "item": "minecraft:ink_sac",
+      "min": 32,
+      "max": 32
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/kill_squid"
+}

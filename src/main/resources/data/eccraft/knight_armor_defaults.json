@@ -1,0 +1,170 @@
+{
+  "tiers": [
+    {
+      "helmet": {
+        "armor": 1,
+        "health": 1,
+        "magicResistance": 1,
+        "durability": 1650,
+        "knockback_resistance": 0.16
+      },
+      "chestplate": {
+        "armor": 2,
+        "health": 1,
+        "magicResistance": 2,
+        "durability": 2400,
+        "knockback_resistance": 0.16
+      },
+      "leggings": {
+        "armor": 2,
+        "health": 1,
+        "magicResistance": 2,
+        "durability": 2250,
+        "knockback_resistance": 0.16
+      },
+      "boots": {
+        "armor": 1,
+        "health": 1,
+        "magicResistance": 1,
+        "durability": 1950,
+        "knockback_resistance": 0.16
+      }
+    },
+    {
+      "helmet": {
+        "armor": 2,
+        "health": 2,
+        "magicResistance": 2,
+        "durability": 3300,
+        "armor_toughness": 1,
+        "knockback_resistance": 0.16
+      },
+      "chestplate": {
+        "armor": 3,
+        "health": 2,
+        "magicResistance": 3,
+        "durability": 4800,
+        "armor_toughness": 1,
+        "knockback_resistance": 0.16
+      },
+      "leggings": {
+        "armor": 3,
+        "health": 2,
+        "magicResistance": 3,
+        "durability": 4500,
+        "armor_toughness": 1,
+        "knockback_resistance": 0.16
+      },
+      "boots": {
+        "armor": 2,
+        "health": 2,
+        "magicResistance": 2,
+        "durability": 3900,
+        "armor_toughness": 1,
+        "knockback_resistance": 0.16
+      }
+    },
+    {
+      "helmet": {
+        "armor": 3,
+        "health": 3,
+        "magicResistance": 3,
+        "durability": 4950,
+        "armor_toughness": 2,
+        "knockback_resistance": 0.16
+      },
+      "chestplate": {
+        "armor": 4,
+        "health": 3,
+        "magicResistance": 4,
+        "durability": 7200,
+        "armor_toughness": 2,
+        "knockback_resistance": 0.16
+      },
+      "leggings": {
+        "armor": 4,
+        "health": 3,
+        "magicResistance": 4,
+        "durability": 6750,
+        "armor_toughness": 2,
+        "knockback_resistance": 0.16
+      },
+      "boots": {
+        "armor": 3,
+        "health": 3,
+        "magicResistance": 3,
+        "durability": 5850,
+        "armor_toughness": 2,
+        "knockback_resistance": 0.16
+      }
+    },
+    {
+      "helmet": {
+        "armor": 4,
+        "health": 4,
+        "magicResistance": 4,
+        "durability": 6600,
+        "armor_toughness": 3,
+        "knockback_resistance": 0.16
+      },
+      "chestplate": {
+        "armor": 5,
+        "health": 4,
+        "magicResistance": 5,
+        "durability": 9600,
+        "armor_toughness": 3,
+        "knockback_resistance": 0.16
+      },
+      "leggings": {
+        "armor": 5,
+        "health": 4,
+        "magicResistance": 5,
+        "durability": 9000,
+        "armor_toughness": 3,
+        "knockback_resistance": 0.16
+      },
+      "boots": {
+        "armor": 3,
+        "health": 4,
+        "magicResistance": 4,
+        "durability": 7800,
+        "armor_toughness": 3,
+        "knockback_resistance": 0.16
+      }
+    },
+    {
+      "helmet": {
+        "armor": 5,
+        "health": 5,
+        "magicResistance": 5,
+        "durability": 8250,
+        "armor_toughness": 4,
+        "knockback_resistance": 0.16
+      },
+      "chestplate": {
+        "armor": 6,
+        "health": 5,
+        "magicResistance": 6,
+        "durability": 12000,
+        "armor_toughness": 4,
+        "knockback_resistance": 0.16
+      },
+      "leggings": {
+        "armor": 6,
+        "health": 5,
+        "magicResistance": 6,
+        "durability": 11250,
+        "armor_toughness": 4,
+        "knockback_resistance": 0.16
+      },
+      "boots": {
+        "armor": 5,
+        "health": 5,
+        "magicResistance": 5,
+        "durability": 9750,
+        "armor_toughness": 4,
+        "knockback_resistance": 0.16
+      }
+    }
+  ]
+}

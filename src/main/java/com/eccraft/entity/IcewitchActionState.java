@@ -1,0 +1,23 @@
+package com.eccraft.entity;
+
+/** Provisional timings until the GLB animation specifications are supplied. */
+public enum IcewitchActionState {
+    IDLE("idle", 0), CHASE("idle", 0), ATTACK("attack", 50),
+    SKILL_1("skill_1", 40), SKILL_2("skill_2", 40), SKILL_3("skill_3", 40), SKILL_4("skill_4", 40), DEATH("death", 40);
+
+    private final String animation;
+    private final int duration;
+
+    IcewitchActionState(String animation, int duration) {
+        this.animation = animation;
+        this.duration = duration;
+    }
+
+    public String animation() { return animation; }
+    public int duration() { return duration; }
+
+    public static IcewitchActionState byName(String name) {
+        try { return valueOf(name); }
+        catch (IllegalArgumentException ignored) { return IDLE; }
+    }
+}

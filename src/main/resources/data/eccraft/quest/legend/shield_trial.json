@@ -1,0 +1,28 @@
+{
+  "type": "special_daily",
+  "page": "eccraft:legend_tasks",
+  "title": "盾之试炼",
+  "description": "击败冰霜女巫和斯芬克斯，完成试炼。需由你亲手击败！",
+  "objectives": [
+    {
+      "id": "kill_icewitch",
+      "type": "kill",
+      "target": "eccraft:icewitch",
+      "count": 1
+    },
+    {
+      "id": "kill_sphinx",
+      "type": "kill",
+      "target": "eccraft:sphinx",
+      "count": 1
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/legend/shield_trial",
+  "experience": 500,
+  "display_rewards": [
+    {
+      "item": "eccraft:item_legend_shield_2",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日狩猎：雪傀儡",
+  "description": "击杀1只雪傀儡。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "kill",
+      "target": "minecraft:snow_golem",
+      "count": 1
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:iron_ingot",
+      "min": 16,
+      "max": 16
+    },
+    {
+      "item": "minecraft:powder_snow_bucket",
+      "min": 2,
+      "max": 2
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/kill_snow_golem"
+}

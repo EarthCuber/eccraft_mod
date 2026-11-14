@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    " a "
+  ],
+  "key": {
+    "a":"eccraft:item_synthesis_t3_knight"
+  },
+  "result": {
+    "id": "eccraft:shield_t3",
+    "count": 1
+  }
+}

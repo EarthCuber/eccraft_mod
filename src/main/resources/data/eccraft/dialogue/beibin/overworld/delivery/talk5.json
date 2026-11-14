@@ -1,0 +1,16 @@
+{
+  "speaker": "",
+  "text": "记忆力、方向感强，掌握异或服游玩相关工具和资讯，善于利用多种交通方式快速机动。",
+  "options": [
+    {
+      "text": "↓",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:beibin/overworld/delivery/talk6"
+        }
+      ]
+    }
+  ]
+}

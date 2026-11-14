@@ -1,0 +1,66 @@
+{
+  "_note": "占位数值；swordDamage为含玩家基础1点的总攻击伤害；攻速固定1。修改后重启。盾墙只在第三档成功附魔时抽取。",
+  "enchantability": 10,
+  "shieldWallChance": 0.01,
+  "rankWeights": [
+    5,
+    3,
+    2
+  ],
+  "reductions": [
+    0.1,
+    0.25,
+    0.5
+  ],
+  "tiers": [
+    {
+      "swordDamage": 4,
+      "swordDurability": 750,
+      "shieldDurability": 750,
+      "health": 2,
+      "armor": 1,
+      "magicResistance": 1,
+      "knockback_resistance": 0.16
+    },
+    {
+      "swordDamage": 6,
+      "swordDurability": 1500,
+      "shieldDurability": 1500,
+      "health": 3,
+      "armor": 2,
+      "magicResistance": 2,
+      "armor_toughness": 1,
+      "knockback_resistance": 0.16
+    },
+    {
+      "swordDamage": 8,
+      "swordDurability": 2250,
+      "shieldDurability": 2250,
+      "health": 4,
+      "armor": 3,
+      "magicResistance": 3,
+      "armor_toughness": 2,
+      "knockback_resistance": 0.16
+    },
+    {
+      "swordDamage": 10,
+      "swordDurability": 3000,
+      "shieldDurability": 3000,
+      "health": 5,
+      "armor": 4,
+      "magicResistance": 4,
+      "armor_toughness": 3,
+      "knockback_resistance": 0.16
+    },
+    {
+      "swordDamage": 12,
+      "swordDurability": 3750,
+      "shieldDurability": 3750,
+      "health": 6,
+      "armor": 5,
+      "magicResistance": 5,
+      "armor_toughness": 4,
+      "knockback_resistance": 0.16
+    }
+  ]
+}

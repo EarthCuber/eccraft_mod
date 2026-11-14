@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "eccraft:mage_t1_leggings",
+    "eccraft:mage_t2_leggings",
+    "eccraft:mage_t3_leggings",
+    "eccraft:mage_t4_leggings",
+    "eccraft:mage_t5_leggings",
+    "eccraft:knight_t1_leggings",
+    "eccraft:knight_t2_leggings",
+    "eccraft:knight_t3_leggings",
+    "eccraft:knight_t4_leggings",
+    "eccraft:knight_t5_leggings",
+    "eccraft:archer_t1_leggings",
+    "eccraft:archer_t2_leggings",
+    "eccraft:archer_t3_leggings",
+    "eccraft:archer_t4_leggings",
+    "eccraft:archer_t5_leggings"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "eccraft:shield_t1",
+    "eccraft:shield_t2",
+    "eccraft:shield_t3",
+    "eccraft:shield_t4",
+    "eccraft:shield_t5",
+    "eccraft:legend_shield_1",
+    "eccraft:legend_shield_2",
+    "eccraft:legend_shield_3",
+    "eccraft:legend_shield_4"
+  ]
+}

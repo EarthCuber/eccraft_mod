@@ -1,0 +1,15 @@
+{
+  "speaker": "",
+  "text": "再见，有任何问题都欢迎回来找我！",
+  "options": [
+    {
+      "text": "好的！",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "close"
+        }
+      ]
+    }
+  ]
+}

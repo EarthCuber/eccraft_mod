@@ -1,0 +1,21 @@
+{
+  "type": "daily",
+  "title": "每日狩猎：鲑鱼",
+  "description": "击杀6只鲑鱼。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "kill",
+      "target": "minecraft:salmon",
+      "count": 6
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:gold_ingot",
+      "min": 32,
+      "max": 32
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/kill_salmon"
+}

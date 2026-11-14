@@ -1,0 +1,25 @@
+{
+  "speaker": "",
+  "text": "模组引入的所有可合成的物品都会在工作台的独立分页中展示（最后一页），如果你有什么想制作的装备却不清楚配方，多查看工作台哦！",
+  "options": [
+    {
+      "text": "还想问别的…",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sky_island/start"
+        }
+      ]
+    },
+    {
+      "text": "没有想问的了…",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "close"
+        }
+      ]
+    }
+  ]
+}

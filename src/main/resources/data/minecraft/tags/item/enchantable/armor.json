@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "eccraft:mage_t1_helmet",
+    "eccraft:mage_t1_chestplate",
+    "eccraft:mage_t1_leggings",
+    "eccraft:mage_t1_boots",
+    "eccraft:mage_t2_helmet",
+    "eccraft:mage_t2_chestplate",
+    "eccraft:mage_t2_leggings",
+    "eccraft:mage_t2_boots",
+    "eccraft:mage_t3_helmet",
+    "eccraft:mage_t3_chestplate",
+    "eccraft:mage_t3_leggings",
+    "eccraft:mage_t3_boots",
+    "eccraft:mage_t4_helmet",
+    "eccraft:mage_t4_chestplate",
+    "eccraft:mage_t4_leggings",
+    "eccraft:mage_t4_boots",
+    "eccraft:mage_t5_helmet",
+    "eccraft:mage_t5_chestplate",
+    "eccraft:mage_t5_leggings",
+    "eccraft:mage_t5_boots"
+  ]
+}

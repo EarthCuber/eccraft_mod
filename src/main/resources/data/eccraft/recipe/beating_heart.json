@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a":"minecraft:copper_block",
+    "b":"minecraft:diamond_block",
+    "c":"eccraft:beating_fragment"
+  },
+  "result": {
+    "id": "eccraft:beating_heart",
+    "count": 1
+  }
+}

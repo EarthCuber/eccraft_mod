@@ -1,0 +1,17 @@
+{
+    "replace":  false,
+    "values":  [
+                   "eccraft:anubis",
+                   "eccraft:icewitch",
+                   "eccraft:junglelord",
+                   "eccraft:samurai",
+                   "eccraft:banshee",
+                   "eccraft:darkdragon",
+                   "eccraft:sphinx",
+                   "eccraft:obsidianguard",
+                   "eccraft:castlecore",
+                   "eccraft:nightgod",
+                   "eccraft:firelord",
+                   "eccraft:techtain_ark"
+               ]
+}

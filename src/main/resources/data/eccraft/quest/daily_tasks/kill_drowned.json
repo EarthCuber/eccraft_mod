@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日狩猎：溺尸",
+  "description": "击杀4只溺尸。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "kill",
+      "target": "minecraft:drowned",
+      "count": 4
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:gold_ingot",
+      "min": 16,
+      "max": 16
+    },
+    {
+      "item": "minecraft:nautilus_shell",
+      "min": 8,
+      "max": 8
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/kill_drowned"
+}

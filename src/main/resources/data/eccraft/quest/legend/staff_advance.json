@@ -1,0 +1,28 @@
+{
+  "type": "special_daily",
+  "page": "eccraft:legend_tasks",
+  "title": "晋升·杖",
+  "description": "提交2个对应秘石和1件传说Ⅰ阶武器，晋升至Ⅱ阶。",
+  "objectives": [
+    {
+      "id": "secret_stones",
+      "type": "submit_item",
+      "target": "eccraft:item_legend_staff_2",
+      "count": 2
+    },
+    {
+      "id": "weapon",
+      "type": "submit_item",
+      "target": "eccraft:legend_staff_1",
+      "count": 1
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/legend/staff_advance",
+  "experience": 1000,
+  "display_rewards": [
+    {
+      "item": "eccraft:legend_staff_2",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "speaker": "",
+  "text": "弄完后顺路帮我带一些绿宝石(16)过来吧。",
+  "options": [
+    {
+      "text": "没问题。",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "quest_complete",
+          "quest": "eccraft:sever_welcome/talk_3"
+        },
+        {
+          "type": "quest_accept",
+          "quest": "eccraft:sever_welcome/talk_4"
+        },
+        {
+          "type": "close"
+        }
+      ]
+    }
+  ]
+}

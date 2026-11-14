@@ -1,0 +1,10 @@
+{
+    "replace":  false,
+    "values":  [
+                   "eccraft:fire",
+                   "eccraft:magic",
+                   "eccraft:melee_attack",
+                   "eccraft:arrow",
+                   "eccraft:void"
+               ]
+}

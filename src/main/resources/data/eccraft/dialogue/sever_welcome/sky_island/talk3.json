@@ -1,0 +1,16 @@
+{
+  "speaker": "",
+  "text": "冒险家们不仅能在其中锻炼PVE技巧，还能获取强大的装备和丰厚的奖励。“鲜美大生蚝”便是其中的一个首领。首次击败它可以获得刻有自己名字的专属鞘翅。",
+  "options": [
+    {
+      "text": "↓",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sever_welcome/sky_island/talk4"
+        }
+      ]
+    }
+  ]
+}

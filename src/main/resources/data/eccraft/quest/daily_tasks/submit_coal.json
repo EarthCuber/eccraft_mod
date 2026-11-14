@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日提交：煤炭",
+  "description": "提交16个煤炭。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "submit_item",
+      "target": "minecraft:coal",
+      "count": 16
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:cobbled_deepslate",
+      "min": 64,
+      "max": 64
+    },
+    {
+      "item": "minecraft:baked_potato",
+      "min": 8,
+      "max": 8
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/submit_coal"
+}

@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日提交：泥土",
+  "description": "提交64个泥土。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "submit_item",
+      "target": "minecraft:dirt",
+      "count": 64
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:bone_meal",
+      "min": 32,
+      "max": 32
+    },
+    {
+      "item": "minecraft:emerald",
+      "min": 8,
+      "max": 8
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/submit_dirt"
+}

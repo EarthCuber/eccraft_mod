@@ -1,0 +1,16 @@
+{
+  "speaker": "",
+  "text": "这里是北滨新区的核心仓库。大部分物资会储存在这里。如果你需要任何东西，欢迎来这搜寻一番。",
+  "options": [
+    {
+      "text": "我知道了。",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:beibin/overworld/start"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "daily",
+  "title": "每日提交：鸡蛋",
+  "description": "提交4个鸡蛋。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "submit_item",
+      "target": "minecraft:egg",
+      "count": 4
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:lapis_lazuli",
+      "min": 12,
+      "max": 12
+    },
+    {
+      "item": "minecraft:brown_egg",
+      "min": 8,
+      "max": 8
+    },
+    {
+      "item": "minecraft:blue_egg",
+      "min": 8,
+      "max": 8
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/submit_egg"
+}

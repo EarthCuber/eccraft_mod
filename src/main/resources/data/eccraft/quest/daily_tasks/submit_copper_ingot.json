@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日提交：铜锭",
+  "description": "提交64个铜锭。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "submit_item",
+      "target": "minecraft:copper_ingot",
+      "count": 64
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:diamond",
+      "min": 3,
+      "max": 3
+    },
+    {
+      "item": "minecraft:lightning_rod",
+      "min": 4,
+      "max": 4
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/submit_copper_ingot"
+}

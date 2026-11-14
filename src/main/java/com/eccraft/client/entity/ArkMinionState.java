@@ -1,0 +1,1 @@
+package com.eccraft.client.entity; public final class ArkMinionState extends net.minecraft.client.renderer.entity.state.LivingEntityRenderState {public String action="idle";public float seconds;}

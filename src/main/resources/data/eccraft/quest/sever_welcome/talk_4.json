@@ -1,0 +1,21 @@
+{
+  "type": "one_time",
+  "page": "eccraft:sever_welcome",
+  "title": "打造装备",
+  "description": "苯环向我开放了村交和仓库，在村交和仓库获取一些基础物资再进行后续发展吧。\n对了，别忘了回去时顺路给苯环带些绿宝石！\n(在此任务处提交,领取奖励后再进行对话)。",
+  "objectives": [
+    {
+      "id": "submit_emerald",
+      "type": "submit_item",
+      "target": "minecraft:emerald",
+      "count": 16
+    }
+  ],
+  "display_rewards": [
+  ],
+  "experience": 100,
+  "reward_loot_table": "eccraft:empty",
+  "prerequisites": [
+    "eccraft:sever_welcome/talk_3"
+  ]
+}

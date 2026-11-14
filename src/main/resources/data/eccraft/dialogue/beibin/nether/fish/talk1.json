@@ -1,0 +1,35 @@
+{
+  "speaker": "",
+  "text": "这是“守卫者农场”的收集部分，产物会在这里存储。有什么想了解的吗？",
+  "options": [
+    {
+      "text": "这机器生产什么？",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:beibin/nether/fish/talk2"
+        }
+      ]
+    },
+    {
+      "text": "这机器怎么用？",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:beibin/nether/fish/talk3"
+        }
+      ]
+    },
+    {
+      "text": "没什么想问的。",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "close"
+        }
+      ]
+    }
+  ]
+}

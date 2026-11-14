@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日提交：石头",
+  "description": "提交64个石头。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "submit_item",
+      "target": "minecraft:stone",
+      "count": 64
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:iron_ingot",
+      "min": 8,
+      "max": 8
+    },
+    {
+      "item": "minecraft:gold_ingot",
+      "min": 4,
+      "max": 4
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/submit_stone"
+}

@@ -1,0 +1,66 @@
+{
+  "speaker": "",
+  "text": "为了帮助各位冒险家更顺利地挑战各个首领，我为冒险家们带来了全新的装备(套装)。根据强度，它们被划分为T1-5的套装。T级越高，强度越高。通过附魔，它们还将获得更强大的能力！当然，使用原版系列的装备也完全可以胜任挑战任务。",
+  "options": [
+    {
+      "text": "关于T1装备…",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sky_island/equipment/t1/talk1"
+        }
+      ]
+    },
+    {
+      "text": "关于T2装备…",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sky_island/equipment/t2/talk1"
+        }
+      ]
+    },
+    {
+      "text": "关于T3装备…",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sky_island/equipment/t3/talk1"
+        }
+      ]
+    },
+    {
+      "text": "关于T4装备…",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sky_island/equipment/t4/talk1"
+        }
+      ]
+    },
+    {
+      "text": "关于T5套装…",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sky_island/equipment/t5/talk1"
+        }
+      ]
+    },
+    {
+      "text": "没什么想问的了…",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sky_island/end"
+        }
+      ]
+    }
+  ]
+}

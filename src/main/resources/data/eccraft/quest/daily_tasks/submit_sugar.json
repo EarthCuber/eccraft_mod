@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日提交：糖",
+  "description": "提交16个糖。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "submit_item",
+      "target": "minecraft:sugar",
+      "count": 16
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:iron_ingot",
+      "min": 8,
+      "max": 8
+    },
+    {
+      "item": "minecraft:book",
+      "min": 4,
+      "max": 4
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/submit_sugar"
+}

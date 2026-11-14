@@ -1,0 +1,21 @@
+{
+  "type": "daily",
+  "title": "每日狩猎：蝙蝠",
+  "description": "击杀5只蝙蝠。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "kill",
+      "target": "minecraft:bat",
+      "count": 5
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:diamond",
+      "min": 5,
+      "max": 5
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/kill_bat"
+}

@@ -1,0 +1,350 @@
+{
+  "tasks_per_day": 8,
+  "timezone": "Asia/Shanghai",
+  "tasks": [
+    {
+      "quest": "eccraft:daily_tasks/kill_bat",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_camel_husk",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_chicken",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_cod",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_salmon",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_cow",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_glow_squid",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_mooshroom",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_pig",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_sheep",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_squid",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_villager",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_pufferfish",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_snow_golem",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_iron_golem",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_blaze",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_bogged",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_breeze_small",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_breeze_large",
+      "weight": 1
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_creeper",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_elder_guardian",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_endermite_small",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_endermite_large",
+      "weight": 1
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_evoker",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_ghast",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_guardian",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_husk",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_magma_cube",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_phantom",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_piglin_brute",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_pillager",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_ravager",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_shulker_small",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_shulker_large",
+      "weight": 1
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_skeleton",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_zombie",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_slime",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_stray",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_vindicator",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_witch",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_wither_skeleton",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_spider",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_drowned",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_creaking",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_enderman_small",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_enderman_large",
+      "weight": 1
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_piglin",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/kill_player",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/submit_coal",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/submit_oak_log",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/submit_dried_kelp",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/submit_cake",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/submit_leather",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/submit_egg",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/submit_shulker_shell",
+      "weight": 1
+    },
+    {
+      "quest": "eccraft:daily_tasks/submit_honeycomb",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/submit_dragon_breath",
+      "weight": 1
+    },
+    {
+      "quest": "eccraft:daily_tasks/submit_redstone",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/submit_blaze_rod",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/submit_sugar",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/submit_gunpowder",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/submit_breeze_rod",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/submit_cobblestone",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/submit_stone",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/submit_dirt",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/submit_sand",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/submit_gravel",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/submit_wheat",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/submit_carrot",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/submit_potato",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/submit_beetroot",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/submit_sugar_cane",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/submit_bamboo",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/submit_cactus",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/submit_pumpkin",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/submit_melon_slice",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/submit_sweet_berries",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/submit_glow_berries",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/submit_nether_wart",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/submit_quartz",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/submit_amethyst_shard",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/submit_copper_ingot",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/submit_gold_ingot",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/submit_iron_ingot",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/submit_lapis_lazuli",
+      "weight": 10
+    },
+    {
+      "quest": "eccraft:daily_tasks/submit_prismarine_shard",
+      "weight": 10
+    }
+  ]
+}

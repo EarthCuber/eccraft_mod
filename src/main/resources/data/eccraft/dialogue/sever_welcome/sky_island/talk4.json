@@ -1,0 +1,16 @@
+{
+  "speaker": "",
+  "text": "使用旁边的副本选择器即可选择和前往相应的副本。对于“鲜美大生蚝”，推荐准备一套铁质及以上的装备和充足的食物进行挑战。",
+  "options": [
+    {
+      "text": "↓",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sever_welcome/sky_island/talk5"
+        }
+      ]
+    }
+  ]
+}

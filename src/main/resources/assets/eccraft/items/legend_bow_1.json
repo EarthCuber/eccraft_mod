@@ -1,0 +1,627 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": [
+          "gui",
+          "ground"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "eccraft:item/legend_bow_1_2d"
+        }
+      },
+      {
+        "when": [
+          "firstperson_righthand",
+          "firstperson_lefthand"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_false": {
+            "type": "minecraft:special",
+            "base": "eccraft:item/legend_bow_1_base",
+            "model": {
+              "type": "eccraft:archer_bow_glb",
+              "model": "eccraft:models/item/legend_bow_1.glb",
+              "texture": "eccraft:textures/item/legend_bow_1.png",
+              "progress": 0
+            }
+          },
+          "on_true": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:use_duration",
+            "scale": 0.05,
+            "fallback": {
+              "type": "minecraft:special",
+              "base": "eccraft:item/legend_bow_1_base",
+              "model": {
+                "type": "eccraft:archer_bow_glb",
+                "model": "eccraft:models/item/legend_bow_1.glb",
+                "texture": "eccraft:textures/item/legend_bow_1.png",
+                "progress": 0,
+                "nocked": true
+              }
+            },
+            "entries": [
+              {
+                "threshold": 0.05,
+                "model": {
+                  "type": "minecraft:special",
+                  "base": "eccraft:item/legend_bow_1_base",
+                  "model": {
+                    "type": "eccraft:archer_bow_glb",
+                    "model": "eccraft:models/item/legend_bow_1.glb",
+                    "texture": "eccraft:textures/item/legend_bow_1.png",
+                    "progress": 0.05,
+                    "nocked": true
+                  }
+                }
+              },
+              {
+                "threshold": 0.1,
+                "model": {
+                  "type": "minecraft:special",
+                  "base": "eccraft:item/legend_bow_1_base",
+                  "model": {
+                    "type": "eccraft:archer_bow_glb",
+                    "model": "eccraft:models/item/legend_bow_1.glb",
+                    "texture": "eccraft:textures/item/legend_bow_1.png",
+                    "progress": 0.1,
+                    "nocked": true
+                  }
+                }
+              },
+              {
+                "threshold": 0.15,
+                "model": {
+                  "type": "minecraft:special",
+                  "base": "eccraft:item/legend_bow_1_base",
+                  "model": {
+                    "type": "eccraft:archer_bow_glb",
+                    "model": "eccraft:models/item/legend_bow_1.glb",
+                    "texture": "eccraft:textures/item/legend_bow_1.png",
+                    "progress": 0.15,
+                    "nocked": true
+                  }
+                }
+              },
+              {
+                "threshold": 0.2,
+                "model": {
+                  "type": "minecraft:special",
+                  "base": "eccraft:item/legend_bow_1_base",
+                  "model": {
+                    "type": "eccraft:archer_bow_glb",
+                    "model": "eccraft:models/item/legend_bow_1.glb",
+                    "texture": "eccraft:textures/item/legend_bow_1.png",
+                    "progress": 0.2,
+                    "nocked": true
+                  }
+                }
+              },
+              {
+                "threshold": 0.25,
+                "model": {
+                  "type": "minecraft:special",
+                  "base": "eccraft:item/legend_bow_1_base",
+                  "model": {
+                    "type": "eccraft:archer_bow_glb",
+                    "model": "eccraft:models/item/legend_bow_1.glb",
+                    "texture": "eccraft:textures/item/legend_bow_1.png",
+                    "progress": 0.25,
+                    "nocked": true
+                  }
+                }
+              },
+              {
+                "threshold": 0.3,
+                "model": {
+                  "type": "minecraft:special",
+                  "base": "eccraft:item/legend_bow_1_base",
+                  "model": {
+                    "type": "eccraft:archer_bow_glb",
+                    "model": "eccraft:models/item/legend_bow_1.glb",
+                    "texture": "eccraft:textures/item/legend_bow_1.png",
+                    "progress": 0.3,
+                    "nocked": true
+                  }
+                }
+              },
+              {
+                "threshold": 0.35,
+                "model": {
+                  "type": "minecraft:special",
+                  "base": "eccraft:item/legend_bow_1_base",
+                  "model": {
+                    "type": "eccraft:archer_bow_glb",
+                    "model": "eccraft:models/item/legend_bow_1.glb",
+                    "texture": "eccraft:textures/item/legend_bow_1.png",
+                    "progress": 0.35,
+                    "nocked": true
+                  }
+                }
+              },
+              {
+                "threshold": 0.4,
+                "model": {
+                  "type": "minecraft:special",
+                  "base": "eccraft:item/legend_bow_1_base",
+                  "model": {
+                    "type": "eccraft:archer_bow_glb",
+                    "model": "eccraft:models/item/legend_bow_1.glb",
+                    "texture": "eccraft:textures/item/legend_bow_1.png",
+                    "progress": 0.4,
+                    "nocked": true
+                  }
+                }
+              },
+              {
+                "threshold": 0.45,
+                "model": {
+                  "type": "minecraft:special",
+                  "base": "eccraft:item/legend_bow_1_base",
+                  "model": {
+                    "type": "eccraft:archer_bow_glb",
+                    "model": "eccraft:models/item/legend_bow_1.glb",
+                    "texture": "eccraft:textures/item/legend_bow_1.png",
+                    "progress": 0.45,
+                    "nocked": true
+                  }
+                }
+              },
+              {
+                "threshold": 0.5,
+                "model": {
+                  "type": "minecraft:special",
+                  "base": "eccraft:item/legend_bow_1_base",
+                  "model": {
+                    "type": "eccraft:archer_bow_glb",
+                    "model": "eccraft:models/item/legend_bow_1.glb",
+                    "texture": "eccraft:textures/item/legend_bow_1.png",
+                    "progress": 0.5,
+                    "nocked": true
+                  }
+                }
+              },
+              {
+                "threshold": 0.55,
+                "model": {
+                  "type": "minecraft:special",
+                  "base": "eccraft:item/legend_bow_1_base",
+                  "model": {
+                    "type": "eccraft:archer_bow_glb",
+                    "model": "eccraft:models/item/legend_bow_1.glb",
+                    "texture": "eccraft:textures/item/legend_bow_1.png",
+                    "progress": 0.55,
+                    "nocked": true
+                  }
+                }
+              },
+              {
+                "threshold": 0.6,
+                "model": {
+                  "type": "minecraft:special",
+                  "base": "eccraft:item/legend_bow_1_base",
+                  "model": {
+                    "type": "eccraft:archer_bow_glb",
+                    "model": "eccraft:models/item/legend_bow_1.glb",
+                    "texture": "eccraft:textures/item/legend_bow_1.png",
+                    "progress": 0.6,
+                    "nocked": true
+                  }
+                }
+              },
+              {
+                "threshold": 0.65,
+                "model": {
+                  "type": "minecraft:special",
+                  "base": "eccraft:item/legend_bow_1_base",
+                  "model": {
+                    "type": "eccraft:archer_bow_glb",
+                    "model": "eccraft:models/item/legend_bow_1.glb",
+                    "texture": "eccraft:textures/item/legend_bow_1.png",
+                    "progress": 0.65,
+                    "nocked": true
+                  }
+                }
+              },
+              {
+                "threshold": 0.7,
+                "model": {
+                  "type": "minecraft:special",
+                  "base": "eccraft:item/legend_bow_1_base",
+                  "model": {
+                    "type": "eccraft:archer_bow_glb",
+                    "model": "eccraft:models/item/legend_bow_1.glb",
+                    "texture": "eccraft:textures/item/legend_bow_1.png",
+                    "progress": 0.7,
+                    "nocked": true
+                  }
+                }
+              },
+              {
+                "threshold": 0.75,
+                "model": {
+                  "type": "minecraft:special",
+                  "base": "eccraft:item/legend_bow_1_base",
+                  "model": {
+                    "type": "eccraft:archer_bow_glb",
+                    "model": "eccraft:models/item/legend_bow_1.glb",
+                    "texture": "eccraft:textures/item/legend_bow_1.png",
+                    "progress": 0.75,
+                    "nocked": true
+                  }
+                }
+              },
+              {
+                "threshold": 0.8,
+                "model": {
+                  "type": "minecraft:special",
+                  "base": "eccraft:item/legend_bow_1_base",
+                  "model": {
+                    "type": "eccraft:archer_bow_glb",
+                    "model": "eccraft:models/item/legend_bow_1.glb",
+                    "texture": "eccraft:textures/item/legend_bow_1.png",
+                    "progress": 0.8,
+                    "nocked": true
+                  }
+                }
+              },
+              {
+                "threshold": 0.85,
+                "model": {
+                  "type": "minecraft:special",
+                  "base": "eccraft:item/legend_bow_1_base",
+                  "model": {
+                    "type": "eccraft:archer_bow_glb",
+                    "model": "eccraft:models/item/legend_bow_1.glb",
+                    "texture": "eccraft:textures/item/legend_bow_1.png",
+                    "progress": 0.85,
+                    "nocked": true
+                  }
+                }
+              },
+              {
+                "threshold": 0.9,
+                "model": {
+                  "type": "minecraft:special",
+                  "base": "eccraft:item/legend_bow_1_base",
+                  "model": {
+                    "type": "eccraft:archer_bow_glb",
+                    "model": "eccraft:models/item/legend_bow_1.glb",
+                    "texture": "eccraft:textures/item/legend_bow_1.png",
+                    "progress": 0.9,
+                    "nocked": true
+                  }
+                }
+              },
+              {
+                "threshold": 0.95,
+                "model": {
+                  "type": "minecraft:special",
+                  "base": "eccraft:item/legend_bow_1_base",
+                  "model": {
+                    "type": "eccraft:archer_bow_glb",
+                    "model": "eccraft:models/item/legend_bow_1.glb",
+                    "texture": "eccraft:textures/item/legend_bow_1.png",
+                    "progress": 0.95,
+                    "nocked": true
+                  }
+                }
+              },
+              {
+                "threshold": 1.0,
+                "model": {
+                  "type": "minecraft:special",
+                  "base": "eccraft:item/legend_bow_1_base",
+                  "model": {
+                    "type": "eccraft:archer_bow_glb",
+                    "model": "eccraft:models/item/legend_bow_1.glb",
+                    "texture": "eccraft:textures/item/legend_bow_1.png",
+                    "progress": 1.0,
+                    "nocked": true
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:condition",
+      "property": "minecraft:using_item",
+      "on_false": {
+        "type": "minecraft:special",
+        "base": "eccraft:item/legend_bow_1_base",
+        "model": {
+          "type": "eccraft:archer_bow_glb",
+          "model": "eccraft:models/item/legend_bow_1.glb",
+          "texture": "eccraft:textures/item/legend_bow_1.png",
+          "progress": 0
+        }
+      },
+      "on_true": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:use_duration",
+        "scale": 0.05,
+        "fallback": {
+          "type": "minecraft:special",
+          "base": "eccraft:item/legend_bow_1_base",
+          "model": {
+            "type": "eccraft:archer_bow_glb",
+            "model": "eccraft:models/item/legend_bow_1.glb",
+            "texture": "eccraft:textures/item/legend_bow_1.png",
+            "progress": 0
+          }
+        },
+        "entries": [
+          {
+            "threshold": 0.05,
+            "model": {
+              "type": "minecraft:special",
+              "base": "eccraft:item/legend_bow_1_base",
+              "model": {
+                "type": "eccraft:archer_bow_glb",
+                "model": "eccraft:models/item/legend_bow_1.glb",
+                "texture": "eccraft:textures/item/legend_bow_1.png",
+                "progress": 0.05
+              }
+            }
+          },
+          {
+            "threshold": 0.1,
+            "model": {
+              "type": "minecraft:special",
+              "base": "eccraft:item/legend_bow_1_base",
+              "model": {
+                "type": "eccraft:archer_bow_glb",
+                "model": "eccraft:models/item/legend_bow_1.glb",
+                "texture": "eccraft:textures/item/legend_bow_1.png",
+                "progress": 0.1
+              }
+            }
+          },
+          {
+            "threshold": 0.15,
+            "model": {
+              "type": "minecraft:special",
+              "base": "eccraft:item/legend_bow_1_base",
+              "model": {
+                "type": "eccraft:archer_bow_glb",
+                "model": "eccraft:models/item/legend_bow_1.glb",
+                "texture": "eccraft:textures/item/legend_bow_1.png",
+                "progress": 0.15
+              }
+            }
+          },
+          {
+            "threshold": 0.2,
+            "model": {
+              "type": "minecraft:special",
+              "base": "eccraft:item/legend_bow_1_base",
+              "model": {
+                "type": "eccraft:archer_bow_glb",
+                "model": "eccraft:models/item/legend_bow_1.glb",
+                "texture": "eccraft:textures/item/legend_bow_1.png",
+                "progress": 0.2
+              }
+            }
+          },
+          {
+            "threshold": 0.25,
+            "model": {
+              "type": "minecraft:special",
+              "base": "eccraft:item/legend_bow_1_base",
+              "model": {
+                "type": "eccraft:archer_bow_glb",
+                "model": "eccraft:models/item/legend_bow_1.glb",
+                "texture": "eccraft:textures/item/legend_bow_1.png",
+                "progress": 0.25
+              }
+            }
+          },
+          {
+            "threshold": 0.3,
+            "model": {
+              "type": "minecraft:special",
+              "base": "eccraft:item/legend_bow_1_base",
+              "model": {
+                "type": "eccraft:archer_bow_glb",
+                "model": "eccraft:models/item/legend_bow_1.glb",
+                "texture": "eccraft:textures/item/legend_bow_1.png",
+                "progress": 0.3
+              }
+            }
+          },
+          {
+            "threshold": 0.35,
+            "model": {
+              "type": "minecraft:special",
+              "base": "eccraft:item/legend_bow_1_base",
+              "model": {
+                "type": "eccraft:archer_bow_glb",
+                "model": "eccraft:models/item/legend_bow_1.glb",
+                "texture": "eccraft:textures/item/legend_bow_1.png",
+                "progress": 0.35
+              }
+            }
+          },
+          {
+            "threshold": 0.4,
+            "model": {
+              "type": "minecraft:special",
+              "base": "eccraft:item/legend_bow_1_base",
+              "model": {
+                "type": "eccraft:archer_bow_glb",
+                "model": "eccraft:models/item/legend_bow_1.glb",
+                "texture": "eccraft:textures/item/legend_bow_1.png",
+                "progress": 0.4
+              }
+            }
+          },
+          {
+            "threshold": 0.45,
+            "model": {
+              "type": "minecraft:special",
+              "base": "eccraft:item/legend_bow_1_base",
+              "model": {
+                "type": "eccraft:archer_bow_glb",
+                "model": "eccraft:models/item/legend_bow_1.glb",
+                "texture": "eccraft:textures/item/legend_bow_1.png",
+                "progress": 0.45
+              }
+            }
+          },
+          {
+            "threshold": 0.5,
+            "model": {
+              "type": "minecraft:special",
+              "base": "eccraft:item/legend_bow_1_base",
+              "model": {
+                "type": "eccraft:archer_bow_glb",
+                "model": "eccraft:models/item/legend_bow_1.glb",
+                "texture": "eccraft:textures/item/legend_bow_1.png",
+                "progress": 0.5
+              }
+            }
+          },
+          {
+            "threshold": 0.55,
+            "model": {
+              "type": "minecraft:special",
+              "base": "eccraft:item/legend_bow_1_base",
+              "model": {
+                "type": "eccraft:archer_bow_glb",
+                "model": "eccraft:models/item/legend_bow_1.glb",
+                "texture": "eccraft:textures/item/legend_bow_1.png",
+                "progress": 0.55
+              }
+            }
+          },
+          {
+            "threshold": 0.6,
+            "model": {
+              "type": "minecraft:special",
+              "base": "eccraft:item/legend_bow_1_base",
+              "model": {
+                "type": "eccraft:archer_bow_glb",
+                "model": "eccraft:models/item/legend_bow_1.glb",
+                "texture": "eccraft:textures/item/legend_bow_1.png",
+                "progress": 0.6
+              }
+            }
+          },
+          {
+            "threshold": 0.65,
+            "model": {
+              "type": "minecraft:special",
+              "base": "eccraft:item/legend_bow_1_base",
+              "model": {
+                "type": "eccraft:archer_bow_glb",
+                "model": "eccraft:models/item/legend_bow_1.glb",
+                "texture": "eccraft:textures/item/legend_bow_1.png",
+                "progress": 0.65
+              }
+            }
+          },
+          {
+            "threshold": 0.7,
+            "model": {
+              "type": "minecraft:special",
+              "base": "eccraft:item/legend_bow_1_base",
+              "model": {
+                "type": "eccraft:archer_bow_glb",
+                "model": "eccraft:models/item/legend_bow_1.glb",
+                "texture": "eccraft:textures/item/legend_bow_1.png",
+                "progress": 0.7
+              }
+            }
+          },
+          {
+            "threshold": 0.75,
+            "model": {
+              "type": "minecraft:special",
+              "base": "eccraft:item/legend_bow_1_base",
+              "model": {
+                "type": "eccraft:archer_bow_glb",
+                "model": "eccraft:models/item/legend_bow_1.glb",
+                "texture": "eccraft:textures/item/legend_bow_1.png",
+                "progress": 0.75
+              }
+            }
+          },
+          {
+            "threshold": 0.8,
+            "model": {
+              "type": "minecraft:special",
+              "base": "eccraft:item/legend_bow_1_base",
+              "model": {
+                "type": "eccraft:archer_bow_glb",
+                "model": "eccraft:models/item/legend_bow_1.glb",
+                "texture": "eccraft:textures/item/legend_bow_1.png",
+                "progress": 0.8
+              }
+            }
+          },
+          {
+            "threshold": 0.85,
+            "model": {
+              "type": "minecraft:special",
+              "base": "eccraft:item/legend_bow_1_base",
+              "model": {
+                "type": "eccraft:archer_bow_glb",
+                "model": "eccraft:models/item/legend_bow_1.glb",
+                "texture": "eccraft:textures/item/legend_bow_1.png",
+                "progress": 0.85
+              }
+            }
+          },
+          {
+            "threshold": 0.9,
+            "model": {
+              "type": "minecraft:special",
+              "base": "eccraft:item/legend_bow_1_base",
+              "model": {
+                "type": "eccraft:archer_bow_glb",
+                "model": "eccraft:models/item/legend_bow_1.glb",
+                "texture": "eccraft:textures/item/legend_bow_1.png",
+                "progress": 0.9
+              }
+            }
+          },
+          {
+            "threshold": 0.95,
+            "model": {
+              "type": "minecraft:special",
+              "base": "eccraft:item/legend_bow_1_base",
+              "model": {
+                "type": "eccraft:archer_bow_glb",
+                "model": "eccraft:models/item/legend_bow_1.glb",
+                "texture": "eccraft:textures/item/legend_bow_1.png",
+                "progress": 0.95
+              }
+            }
+          },
+          {
+            "threshold": 1.0,
+            "model": {
+              "type": "minecraft:special",
+              "base": "eccraft:item/legend_bow_1_base",
+              "model": {
+                "type": "eccraft:archer_bow_glb",
+                "model": "eccraft:models/item/legend_bow_1.glb",
+                "texture": "eccraft:textures/item/legend_bow_1.png",
+                "progress": 1.0
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

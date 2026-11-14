@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日提交：干海带",
+  "description": "提交64个干海带。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "submit_item",
+      "target": "minecraft:dried_kelp",
+      "count": 64
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:lapis_lazuli",
+      "min": 32,
+      "max": 32
+    },
+    {
+      "item": "minecraft:heart_of_the_sea",
+      "min": 1,
+      "max": 1
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/submit_dried_kelp"
+}

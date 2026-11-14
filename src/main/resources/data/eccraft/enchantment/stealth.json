@@ -1,0 +1,22 @@
+{
+  "description": {
+    "translate": "enchantment.eccraft.stealth"
+  },
+  "supported_items": "#eccraft:critical_equipment",
+  "exclusive_set": "#eccraft:exclusive_set/target_preference",
+  "weight": 5,
+  "max_level": 3,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 31,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "any"
+  ],
+  "effects": {}
+}

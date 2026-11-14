@@ -1,0 +1,16 @@
+{
+  "speaker": "",
+  "text": "T4级别装备包括魂铸意志套装、深渊行者套装、黑暗信使套装。这些装备需要使用T4级别的材料制作。T4级别的材料由T4级别的首领掉落。",
+  "options": [
+    {
+      "text": "↓",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sky_island/equipment/t4/talk2"
+        }
+      ]
+    }
+  ]
+}

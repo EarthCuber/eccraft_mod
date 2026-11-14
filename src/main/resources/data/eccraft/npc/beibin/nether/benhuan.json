@@ -1,0 +1,8 @@
+{
+  "display_name": "HexagonBenzene(苯环)",
+  "model": {
+    "type": "mannequin",
+    "player_name": "HexagonBenzene"
+  },
+  "dialogue": "eccraft:beibin/nether/start"
+}

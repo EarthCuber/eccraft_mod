@@ -1,0 +1,31 @@
+{
+  "type": "daily",
+  "title": "每日狩猎：骷髅",
+  "description": "击杀2只骷髅。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "kill",
+      "target": "minecraft:skeleton",
+      "count": 2
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:iron_ingot",
+      "min": 16,
+      "max": 16
+    },
+    {
+      "item": "minecraft:bone",
+      "min": 32,
+      "max": 32
+    },
+    {
+      "item": "minecraft:skeleton_skull",
+      "min": 0,
+      "max": 1
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/kill_skeleton"
+}

@@ -1,0 +1,26 @@
+{
+  "speaker": "",
+  "text": "天空岛在主城南边的海上，可以通过上面流下的水柱登岛。不过我觉得通过“传送法杖”登岛更方便些。",
+  "options": [
+    {
+      "text": "传送法杖？",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sever_welcome/beibin_overworld/talk15"
+        }
+      ]
+    },
+    {
+      "text": "那是什么？",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sever_welcome/beibin_overworld/talk15"
+        }
+      ]
+    }
+  ]
+}

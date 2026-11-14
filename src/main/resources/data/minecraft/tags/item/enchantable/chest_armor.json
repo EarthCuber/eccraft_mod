@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "eccraft:mage_t1_chestplate",
+    "eccraft:mage_t2_chestplate",
+    "eccraft:mage_t3_chestplate",
+    "eccraft:mage_t4_chestplate",
+    "eccraft:mage_t5_chestplate",
+    "#eccraft:knight_shields"
+  ]
+}

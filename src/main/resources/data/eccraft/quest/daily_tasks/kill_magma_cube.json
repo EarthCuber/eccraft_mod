@@ -1,0 +1,31 @@
+{
+  "type": "daily",
+  "title": "每日狩猎：岩浆怪",
+  "description": "击杀4只岩浆怪。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "kill",
+      "target": "minecraft:magma_cube",
+      "count": 4
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:ancient_debris",
+      "min": 2,
+      "max": 2
+    },
+    {
+      "item": "minecraft:magma_cream",
+      "min": 32,
+      "max": 32
+    },
+    {
+      "item": "minecraft:slime_ball",
+      "min": 8,
+      "max": 8
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/kill_magma_cube"
+}

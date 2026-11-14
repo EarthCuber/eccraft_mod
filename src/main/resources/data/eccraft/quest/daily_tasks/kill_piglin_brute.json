@@ -1,0 +1,31 @@
+{
+  "type": "daily",
+  "title": "每日狩猎：猪灵蛮兵",
+  "description": "击杀1只猪灵蛮兵。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "kill",
+      "target": "minecraft:piglin_brute",
+      "count": 1
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:ancient_debris",
+      "min": 4,
+      "max": 4
+    },
+    {
+      "item": "minecraft:nether_star",
+      "min": 1,
+      "max": 1
+    },
+    {
+      "item": "minecraft:gold_ingot",
+      "min": 16,
+      "max": 16
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/kill_piglin_brute"
+}

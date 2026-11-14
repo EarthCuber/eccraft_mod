@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日提交：胡萝卜",
+  "description": "提交32个胡萝卜。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "submit_item",
+      "target": "minecraft:carrot",
+      "count": 32
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:gold_ingot",
+      "min": 8,
+      "max": 8
+    },
+    {
+      "item": "minecraft:golden_carrot",
+      "min": 8,
+      "max": 8
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/submit_carrot"
+}

@@ -1,0 +1,16 @@
+{
+  "speaker": "",
+  "text": "最好懂一些生电原理。会用投影不算懂生电。你需要跑很多机器去拿产物，因此至少要知道机器是不是在正常工作，以及掌握一点常见问题的处理方法。",
+  "options": [
+    {
+      "text": "我明白了。",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:beibin/overworld/delivery/talk3"
+        }
+      ]
+    }
+  ]
+}

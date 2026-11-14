@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日狩猎：史莱姆",
+  "description": "击杀1只史莱姆。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "kill",
+      "target": "minecraft:slime",
+      "count": 1
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:diamond",
+      "min": 4,
+      "max": 4
+    },
+    {
+      "item": "minecraft:slime_ball",
+      "min": 64,
+      "max": 64
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/kill_slime"
+}

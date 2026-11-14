@@ -1,0 +1,72 @@
+{
+  "speaker": "",
+  "text": "欢迎来到天空岛(秘境)，我是这里的管理员。有什么需要帮助的吗？",
+  "options": [
+    {
+      "text": "→我想拿到鞘翅…",
+      "conditions": [
+        {
+          "type": "quest_state",
+          "quest": "eccraft:sever_welcome/talk_8",
+          "state": "active"
+        }
+      ],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sever_welcome/sky_island/talk1"
+        }
+      ]
+    },
+    {
+      "text": "关于秘境…",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sky_island/mijing/start"
+        }
+      ]
+    },
+    {
+      "text": "关于装备…",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sky_island/equipment/start"
+        }
+      ]
+    },
+    {
+      "text": "关于传说武器…",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sky_island/legend/start"
+        }
+      ]
+    },
+    {
+      "text": "关于合成…",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sky_island/crafting/start"
+        }
+      ]
+    },
+    {
+      "text": "再见。",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sky_island/end"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "eccraft:item/item_alchemy_mineral_t3_crystallization"
+  }
+}

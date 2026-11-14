@@ -1,0 +1,20 @@
+{
+  "type": "one_time",
+  "page": "eccraft:update",
+  "title": "11.1更新",
+  "description": "添加新首领：机幕方舟\n添加新武器：空中飞锤\n修改了首领关于脱战时间的机制：首领触发普通攻击时不再回复全部脱战时间，而是仅回复1.5秒\n为所有骑士套装补充了“击退抗性”属性",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "submit_item",
+      "target": "minecraft:dirt",
+      "count": 1
+    }
+  ],
+  "display_rewards": [
+    {"item":"eccraft:techtain_ark_summoning_stone","min":2,"max":2},
+    {"item":"eccraft:item_copper_coin","min":16,"max":16}
+  ],
+  "experience": 500,
+  "reward_loot_table": "eccraft:quests/update/11_1"
+}

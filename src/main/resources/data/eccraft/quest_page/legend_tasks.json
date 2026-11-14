@@ -1,0 +1,7 @@
+{
+  "title": "传说任务",
+  "icon": "eccraft:legend_table_staff",
+  "order": 4,
+  "type": "special_daily",
+  "quests": []
+}

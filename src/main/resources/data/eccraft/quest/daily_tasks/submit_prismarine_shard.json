@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日提交：海晶碎片",
+  "description": "提交64个海晶碎片。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "submit_item",
+      "target": "minecraft:prismarine_shard",
+      "count": 64
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:diamond",
+      "min": 4,
+      "max": 4
+    },
+    {
+      "item": "minecraft:sea_lantern",
+      "min": 8,
+      "max": 8
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/submit_prismarine_shard"
+}

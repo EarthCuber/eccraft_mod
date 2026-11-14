@@ -1,0 +1,23 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type":"minecraft:item",
+                    "name":"eccraft:item_synthesis_t3_brokenstaff",
+                    "functions":[
+                        {
+                            "function":"set_count",
+                            "count":{
+                                "type":"uniform",
+                                "min":0,
+                                "max":2
+                            }
+                        }
+                    ]
+                }
+            ] 
+        }
+    ]
+}

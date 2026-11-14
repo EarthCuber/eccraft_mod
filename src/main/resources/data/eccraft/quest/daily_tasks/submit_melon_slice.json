@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日提交：西瓜片",
+  "description": "提交64个西瓜片。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "submit_item",
+      "target": "minecraft:melon_slice",
+      "count": 64
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:gold_ingot",
+      "min": 16,
+      "max": 16
+    },
+    {
+      "item": "minecraft:glistering_melon_slice",
+      "min": 8,
+      "max": 8
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/submit_melon_slice"
+}

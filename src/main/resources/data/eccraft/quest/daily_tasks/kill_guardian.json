@@ -1,0 +1,36 @@
+{
+  "type": "daily",
+  "title": "每日狩猎：守卫者",
+  "description": "击杀2只守卫者。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "kill",
+      "target": "minecraft:guardian",
+      "count": 2
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:diamond",
+      "min": 6,
+      "max": 6
+    },
+    {
+      "item": "minecraft:prismarine",
+      "min": 64,
+      "max": 64
+    },
+    {
+      "item": "minecraft:prismarine_bricks",
+      "min": 64,
+      "max": 64
+    },
+    {
+      "item": "minecraft:dark_prismarine",
+      "min": 64,
+      "max": 64
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/kill_guardian"
+}

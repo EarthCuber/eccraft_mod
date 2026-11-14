@@ -1,0 +1,5 @@
+{"title":"更新公告","icon":"minecraft:wooden_pickaxe","order":1,"type":"one_time","quests":[
+    "eccraft:update/10_29",
+    "eccraft:update/11_1",
+    "eccraft:update/11_12"
+]}

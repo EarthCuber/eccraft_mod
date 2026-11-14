@@ -1,0 +1,23 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type":"minecraft:item",
+                    "name":"eccraft:item_alchemy_mineral_t3_crystallization",
+                    "functions":[
+                        {
+                            "function":"set_count",
+                            "count":{
+                                "type":"uniform",
+                                "min":48,
+                                "max":80
+                            }
+                        }
+                    ]
+                }
+            ] 
+        }
+    ]
+}

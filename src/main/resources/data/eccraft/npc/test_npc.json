@@ -1,0 +1,11 @@
+{
+  "display_name": "任务测试员",
+  "model": {
+    "type": "gltf",
+    "model": "eccraft:models/entity/anubis.glb",
+    "texture": "eccraft:textures/entity/anubis_gltf.png",
+    "scale": 0.1,
+    "idle_animation": "Anim-1_idle01"
+  },
+  "dialogue": "eccraft:test_npc/start"
+}

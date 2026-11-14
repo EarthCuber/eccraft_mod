@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "bb ",
+    "ab ",
+    "   "
+  ],
+  "key": {
+    "a":"minecraft:leather",
+    "b":"#minecraft:wool"
+  },
+  "result": {
+    "id": "eccraft:tome_t1",
+    "count": 1
+  }
+}

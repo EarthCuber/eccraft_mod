@@ -1,0 +1,10 @@
+{
+  "speaker": "活姐",
+  "text": "往南边看，看到那个巨大的地狱传送门了吗？那是通往地狱上层的传送门。",
+  "options": [
+    {
+      "text": "↓",
+      "actions": [{"type":"next","dialogue":"eccraft:sever_welcome/csd/talk_4"}]
+    }
+  ]
+}

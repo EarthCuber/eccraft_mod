@@ -1,0 +1,24 @@
+{
+  "type": "one_time",
+  "page": "eccraft:update",
+  "title": "10.29更新",
+  "description": "大幅提高了各个模组首领的掉落物产出（2x）\n大幅提高了各个模组首领的脱战时间（2x）\n药水匠兑换项更新，现在可以使用货币兑换更多物资\n略微下调了传说武器所需碎片数量\n修复了武器、防具显示数值与实际不符的问题\n修复了t4材料掉落异常的问题\n冰霜女巫普通攻击的伤害类型改为物理，且间隔延长\n火焰领主陨石的生命值：99999→50\n鲜美大生蚝与t2级首领额外掉落铜/银币",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "submit_item",
+      "target": "minecraft:dirt",
+      "count": 1
+    }
+  ],
+  "display_rewards": [
+    {"item":"eccraft:item_t3_box","min":128,"max":128},
+    {"item":"eccraft:item_t4_box","min":128,"max":128},
+    {"item":"eccraft:item_copper_coin","min":256,"max":256},
+    {"item":"eccraft:item_synthesis_t4_meteorite","min":12,"max":12},
+    {"item":"eccraft:item_synthesis_t4_devilblood","min":12,"max":12},
+    {"item":"eccraft:item_synthesis_t4_fragment","min":12,"max":12}
+  ],
+  "experience": 2000,
+  "reward_loot_table": "eccraft:quests/update/10_29"
+}

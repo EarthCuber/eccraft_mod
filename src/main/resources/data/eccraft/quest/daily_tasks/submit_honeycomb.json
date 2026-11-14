@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日提交：蜜脾",
+  "description": "提交3个蜜脾。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "submit_item",
+      "target": "minecraft:honeycomb",
+      "count": 3
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:resin_clump",
+      "min": 12,
+      "max": 12
+    },
+    {
+      "item": "minecraft:resin_brick",
+      "min": 12,
+      "max": 12
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/submit_honeycomb"
+}

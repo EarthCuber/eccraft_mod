@@ -1,0 +1,8 @@
+{
+  "speaker": "任务测试员",
+  "text": "我的模型、名称和初始对话都来自 eccraft:test_npc 定义，实体存档里只保存这个定义 ID。",
+  "options": [
+    {"text":"返回", "action":{"type":"next","dialogue":"eccraft:test_npc/start"}},
+    {"text":"离开", "action":{"type":"close"}}
+  ]
+}

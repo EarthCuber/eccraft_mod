@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日提交：下界疣",
+  "description": "提交32个下界疣。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "submit_item",
+      "target": "minecraft:nether_wart",
+      "count": 32
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:diamond",
+      "min": 2,
+      "max": 2
+    },
+    {
+      "item": "minecraft:redstone",
+      "min": 32,
+      "max": 32
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/submit_nether_wart"
+}

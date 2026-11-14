@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    " d ",
+    " e "
+  ],
+  "key": {
+    "a":"minecraft:netherite_block",
+    "b":"eccraft:beating_heart",
+    "c":"minecraft:tnt",
+    "d":"eccraft:magic_dust",
+    "e":"minecraft:mace"
+  },
+  "result": {
+    "id": "eccraft:flying_trapeze_hammer",
+    "count": 1,
+    "components": {
+      "enchantments": {
+        "eccraft:dizziness":1,
+        "eccraft:surprise": 1 
+      }
+    }
+  }
+}

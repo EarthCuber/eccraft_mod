@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "eccraft:bow_t1",
+    "eccraft:bow_t2",
+    "eccraft:bow_t3",
+    "eccraft:bow_t4",
+    "eccraft:bow_t5",
+    "eccraft:legend_bow_1",
+    "eccraft:legend_bow_2",
+    "eccraft:legend_bow_3",
+    "eccraft:legend_bow_4"
+  ]
+}

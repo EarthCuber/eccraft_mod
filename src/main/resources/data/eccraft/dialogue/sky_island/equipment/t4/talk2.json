@@ -1,0 +1,25 @@
+{
+  "speaker": "",
+  "text": "T4级别的首领包括黑夜女神、城堡核心、火焰领主。推荐使用T3及以上的装备进行挑战。当然，不要忘记为你的武器和防具附魔。一个人打不过的话，不妨带上你的小伙伴一起挑战。",
+  "options": [
+    {
+      "text": "还想问别的…",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sky_island/equipment/start"
+        }
+      ]
+    },
+    {
+      "text": "我明白了。",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "close"
+        }
+      ]
+    }
+  ]
+}

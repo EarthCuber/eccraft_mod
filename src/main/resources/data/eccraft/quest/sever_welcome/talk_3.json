@@ -1,0 +1,17 @@
+{
+  "type": "one_time",
+  "page": "eccraft:sever_welcome",
+  "title": "抵达北滨",
+  "description": "苯环说他在一个沙石材质的建筑里等我。在北滨新区逛逛，寻找苯环吧。（主世界坐标：-1220，-2552）",
+  "objectives": [
+    {"id":"dialogue","type":"dialogue","target":"eccraft:test_npc","count":1}
+  ],
+  "display_rewards": [
+    {"item":"minecraft:diamond","min":2,"max":2}
+  ],
+  "experience": 500,
+  "reward_loot_table": "eccraft:quests/sever_welcome/talk_3",
+  "prerequisites": [
+    "eccraft:sever_welcome/talk_2"
+  ]
+}

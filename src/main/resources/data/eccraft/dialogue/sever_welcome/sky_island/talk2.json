@@ -1,0 +1,16 @@
+{
+  "speaker": "",
+  "text": "这里是天空岛(秘境)。作为原版游戏之外的内容，我在这里创建了许多首领(副本)供各位冒险家在闲暇之时进行挑战。不用担心死亡掉落的问题，在秘境中，死亡永不掉落！",
+  "options": [
+    {
+      "text": "↓",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sever_welcome/sky_island/talk3"
+        }
+      ]
+    }
+  ]
+}

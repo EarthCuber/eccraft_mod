@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    " a "
+  ],
+  "key": {
+    "a":"minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "eccraft:shield_t1",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日提交：潜影壳",
+  "description": "提交64个潜影壳。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "submit_item",
+      "target": "minecraft:shulker_shell",
+      "count": 64
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:diamond",
+      "min": 4,
+      "max": 4
+    },
+    {
+      "item": "minecraft:elytra",
+      "min": 1,
+      "max": 1
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/submit_shulker_shell"
+}

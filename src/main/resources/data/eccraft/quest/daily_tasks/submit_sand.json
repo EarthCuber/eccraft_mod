@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日提交：沙子",
+  "description": "提交64个沙子。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "submit_item",
+      "target": "minecraft:sand",
+      "count": 64
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:glass",
+      "min": 64,
+      "max": 64
+    },
+    {
+      "item": "minecraft:emerald",
+      "min": 8,
+      "max": 8
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/submit_sand"
+}

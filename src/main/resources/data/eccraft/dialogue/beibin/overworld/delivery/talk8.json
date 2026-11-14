@@ -1,0 +1,16 @@
+{
+  "speaker": "",
+  "text": "联系苯环/爱月。如果你不想干这一行了，也可以随时退出。（现在和你交流的是npc）",
+  "options": [
+    {
+      "text": "我知道了。",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:beibin/overworld/delivery/talk3"
+        }
+      ]
+    }
+  ]
+}

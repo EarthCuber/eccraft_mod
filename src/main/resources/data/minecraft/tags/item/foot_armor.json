@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "eccraft:mage_t1_boots",
+    "eccraft:mage_t2_boots",
+    "eccraft:mage_t3_boots",
+    "eccraft:mage_t4_boots",
+    "eccraft:mage_t5_boots",
+    "eccraft:knight_t1_boots",
+    "eccraft:knight_t2_boots",
+    "eccraft:knight_t3_boots",
+    "eccraft:knight_t4_boots",
+    "eccraft:knight_t5_boots",
+    "eccraft:archer_t1_boots",
+    "eccraft:archer_t2_boots",
+    "eccraft:archer_t3_boots",
+    "eccraft:archer_t4_boots",
+    "eccraft:archer_t5_boots"
+  ]
+}

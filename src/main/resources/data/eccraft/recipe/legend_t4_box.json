@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aad",
+    "bbd",
+    "ccd"
+  ],
+  "key": {
+    "a": "#eccraft:item_shengwu_t4",
+    "b": "#eccraft:item_kuangwu_t4",
+    "c": "#eccraft:item_zhiwu_t4",
+    "d": "#eccraft:item_alchemy_t4"
+  },
+  "result": {
+    "id": "eccraft:item_t4_box",
+    "count": 1
+  }
+}

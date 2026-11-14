@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日提交：甜浆果",
+  "description": "提交32个甜浆果。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "submit_item",
+      "target": "minecraft:sweet_berries",
+      "count": 32
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:iron_ingot",
+      "min": 8,
+      "max": 8
+    },
+    {
+      "item": "minecraft:cooked_beef",
+      "min": 8,
+      "max": 8
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/submit_sweet_berries"
+}

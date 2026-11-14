@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日狩猎：嘎吱",
+  "description": "击杀1只嘎吱。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "kill",
+      "target": "minecraft:creaking",
+      "count": 1
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:diamond",
+      "min": 4,
+      "max": 4
+    },
+    {
+      "item": "minecraft:resin_clump",
+      "min": 16,
+      "max": 16
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/kill_creaking"
+}

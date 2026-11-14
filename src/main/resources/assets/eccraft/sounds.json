@@ -1,0 +1,410 @@
+{
+    "entity.anubis.summon_flame":  {
+                                       "sounds":  [
+                                                      "eccraft:entity/anubis/anubis_summon_flame"
+                                                  ]
+                                   },
+    "entity.anubis.explosion":  {
+                                    "sounds":  [
+                                                   "eccraft:entity/anubis/anubis_explosion"
+                                               ]
+                                },
+    "entity.anubis.summon_guard":  {
+                                       "sounds":  [
+                                                      "eccraft:entity/anubis/anubis_summon_guard"
+                                                  ]
+                                   },
+    "entity.anubis.death":  {
+                                "sounds":  [
+                                               "eccraft:entity/anubis/anubis_death"
+                                           ]
+                            },
+    "entity.icewitch.skill_1":  {
+                                    "sounds":  [
+                                                   "eccraft:entity/icewitch/icewitch_skill_1"
+                                               ]
+                                },
+    "entity.icewitch.skill_2":  {
+                                    "sounds":  [
+                                                   "eccraft:entity/icewitch/icewitch_skill_2"
+                                               ]
+                                },
+    "entity.icewitch.skill_3":  {
+                                    "sounds":  [
+                                                   "eccraft:entity/icewitch/icewitch_skill_3"
+                                               ]
+                                },
+    "entity.icewitch.death":  {
+                                  "sounds":  [
+                                                 "eccraft:entity/icewitch/icewitch_death"
+                                             ]
+                              },
+    "music.anubis_battle":  {
+                                "sounds":  [
+                                               {
+                                                   "stream":  true,
+                                                   "name":  "eccraft:music/anubis_battle"
+                                               }
+                                           ]
+                            },
+    "music.icewitch_battle":  {
+                                  "sounds":  [
+                                                 {
+                                                     "stream":  true,
+                                                     "name":  "eccraft:music/icewitch_battle"
+                                                 }
+                                             ]
+                              },
+    "entity.junglelord.skill_1":  {
+                                      "sounds":  [
+                                                     "eccraft:entity/junglelord/junglelord_skill_1"
+                                                 ]
+                                  },
+    "music.junglelord_battle":  {
+                                    "sounds":  [
+                                                   {
+                                                       "stream":  true,
+                                                       "name":  "eccraft:music/junglelord_battle"
+                                                   }
+                                               ]
+                                },
+    "entity.junglelord.death":  {
+                                    "sounds":  [
+                                                   "eccraft:entity/junglelord/junglelord_death"
+                                               ]
+                                },
+    "entity.junglelord.attack":  {
+                                     "sounds":  [
+                                                    "eccraft:entity/junglelord/junglelord_attack"
+                                                ]
+                                 },
+    "entity.junglelord.skill_2":  {
+                                      "sounds":  [
+                                                     "eccraft:entity/junglelord/junglelord_skill_2"
+                                                 ]
+                                  },
+    "entity.samurai.death":  {
+                                 "sounds":  [
+                                                "eccraft:entity/samurai/samurai_death"
+                                            ]
+                             },
+    "entity.samurai.skill_2":  {
+                                   "sounds":  [
+                                                  "eccraft:entity/samurai/samurai_skill_2"
+                                              ]
+                               },
+    "entity.samurai.skill_1":  {
+                                   "sounds":  [
+                                                  "eccraft:entity/samurai/samurai_skill_1"
+                                              ]
+                               },
+    "entity.samurai.attack":  {
+                                  "sounds":  [
+                                                 "eccraft:entity/samurai/samurai_attack"
+                                             ]
+                              },
+    "music.samurai_battle":  {
+                                 "sounds":  [
+                                                {
+                                                    "name":  "eccraft:music/samurai_battle",
+                                                    "stream":  true
+                                                }
+                                            ]
+                             },
+    "entity.banshee.death":  {
+                                 "sounds":  [
+                                                "eccraft:entity/banshee/banshee_death"
+                                            ]
+                             },
+    "entity.banshee.skill_2":  {
+                                   "sounds":  [
+                                                  "eccraft:entity/banshee/banshee_skill_2"
+                                              ]
+                               },
+    "entity.banshee.skill_1":  {
+                                   "sounds":  [
+                                                  "eccraft:entity/banshee/banshee_skill_1"
+                                              ]
+                               },
+    "entity.banshee.attack":  {
+                                  "sounds":  [
+                                                 "eccraft:entity/banshee/banshee_attack"
+                                             ]
+                              },
+    "music.banshee_battle":  {
+                                 "sounds":  [
+                                                {
+                                                    "name":  "eccraft:music/banshee_battle",
+                                                    "stream":  true
+                                                }
+                                            ]
+                             },
+    "entity.darkdragon.attack":  {
+                                     "sounds":  [
+                                                    {
+                                                        "name":  "eccraft:entity/darkdragon/darkdragon_attack",
+                                                        "attenuation_distance":  64
+                                                    }
+                                                ]
+                                 },
+    "entity.darkdragon.roar":  {
+                                   "sounds":  [
+                                                  {
+                                                      "name":  "eccraft:entity/darkdragon/darkdragon_roar",
+                                                      "attenuation_distance":  64
+                                                  }
+                                              ]
+                               },
+    "entity.darkdragon.normal":  {
+                                     "sounds":  [
+                                                    {
+                                                        "name":  "eccraft:entity/darkdragon/darkdragon_normal",
+                                                        "attenuation_distance":  64
+                                                    }
+                                                ]
+                                 },
+    "entity.darkdragon.fly":  {
+                                  "sounds":  [
+                                                 {
+                                                     "name":  "eccraft:entity/darkdragon/darkdragon_fly",
+                                                     "attenuation_distance":  64
+                                                 }
+                                             ]
+                              },
+    "entity.darkdragon.fire":  {
+                                   "sounds":  [
+                                                  {
+                                                      "name":  "eccraft:entity/darkdragon/darkdragon_fire",
+                                                      "attenuation_distance":  64
+                                                  }
+                                              ]
+                               },
+    "entity.sphinx.attack":  {
+                                 "sounds":  [
+                                                "eccraft:entity/sphinx/sphinx_attack"
+                                            ]
+                             },
+    "entity.sphinx.skill_1":  {
+                                  "sounds":  [
+                                                 "eccraft:entity/sphinx/sphinx_skill_1"
+                                             ]
+                              },
+    "entity.sphinx.skill_2":  {
+                                  "sounds":  [
+                                                 "eccraft:entity/sphinx/sphinx_skill_2"
+                                             ]
+                              },
+    "entity.sphinx.death":  {
+                                "sounds":  [
+                                               "eccraft:entity/sphinx/sphinx_death"
+                                           ]
+                            },
+    "music.sphinx_battle":  {
+                                "sounds":  [
+                                               {
+                                                   "name":  "eccraft:music/sphinx_battle",
+                                                   "stream":  true
+                                               }
+                                           ]
+                            },
+    "item.staff.shoot":  {
+                             "sounds":  [
+                                            "eccraft:item/staff/player_staff_att"
+                                        ]
+                         },
+    "entity.obsidianguard.attack":  {
+                                        "sounds":  [
+                                                       "eccraft:entity/obsidianguard/obsidianguard_attack"
+                                                   ]
+                                    },
+    "entity.obsidianguard.skill_1":  {
+                                         "sounds":  [
+                                                        "eccraft:entity/obsidianguard/obsidianguard_skill_1"
+                                                    ]
+                                     },
+    "entity.obsidianguard.skill_2":  {
+                                         "sounds":  [
+                                                        "eccraft:entity/obsidianguard/obsidianguard_skill_2"
+                                                    ]
+                                     },
+    "entity.obsidianguard.death":  {
+                                       "sounds":  [
+                                                      "eccraft:entity/obsidianguard/obsidianguard_death"
+                                                  ]
+                                   },
+    "music.obsidianguard_battle":  {
+                                       "sounds":  [
+                                                      {
+                                                          "name":  "eccraft:music/obsidianguard_battle",
+                                                          "stream":  true
+                                                      }
+                                                  ]
+                                   },
+    "entity.castlecore.attack":  {
+                                     "sounds":  [
+                                                    "eccraft:entity/castlecore/castlecore_attack"
+                                                ]
+                                 },
+    "entity.castlecore.skill_1":  {
+                                      "sounds":  [
+                                                     "eccraft:entity/castlecore/castlecore_skill_1"
+                                                 ]
+                                  },
+    "entity.castlecore.skill_2":  {
+                                      "sounds":  [
+                                                     "eccraft:entity/castlecore/castlecore_skill_2"
+                                                 ]
+                                  },
+    "entity.castlecore.skill_3":  {
+                                      "sounds":  [
+                                                     "eccraft:entity/castlecore/castlecore_skill_3"
+                                                 ]
+                                  },
+    "entity.castlecore.death":  {
+                                    "sounds":  [
+                                                   "eccraft:entity/castlecore/castlecore_death"
+                                               ]
+                                },
+    "music.castlecore_battle":  {
+                                    "sounds":  [
+                                                   {
+                                                       "name":  "eccraft:music/castlecore_battle",
+                                                       "stream":  true
+                                                   }
+                                               ]
+                                },
+    "entity.nightgod.attack":  {
+                                   "sounds":  [
+                                                  "eccraft:entity/nightgod/nightgod_attack"
+                                              ]
+                               },
+    "entity.nightgod.skill_1":  {
+                                    "sounds":  [
+                                                   "eccraft:entity/nightgod/nightgod_skill_1"
+                                               ]
+                                },
+    "entity.nightgod.skill_2":  {
+                                    "sounds":  [
+                                                   "eccraft:entity/nightgod/nightgod_skill_2"
+                                               ]
+                                },
+    "entity.nightgod.skill_3":  {
+                                    "sounds":  [
+                                                   "eccraft:entity/nightgod/nightgod_skill_3"
+                                               ]
+                                },
+    "entity.nightgod.skill_4":  {
+                                    "sounds":  [
+                                                   "eccraft:entity/nightgod/nightgod_skill_4"
+                                               ]
+                                },
+    "entity.nightgod.death":  {
+                                  "sounds":  [
+                                                 "eccraft:entity/nightgod/nightgod_death"
+                                             ]
+                              },
+    "music.nightgod_battle":  {
+                                  "sounds":  [
+                                                 {
+                                                     "name":  "eccraft:music/nightgod_battle",
+                                                     "stream":  true
+                                                 }
+                                             ]
+                              },
+    "entity.firelord.attack":  {
+                                   "sounds":  [
+                                                  "eccraft:entity/firelord/firelord_attack"
+                                              ]
+                               },
+    "entity.firelord.skill_1":  {
+                                    "sounds":  [
+                                                   "eccraft:entity/firelord/firelord_skill_1"
+                                               ]
+                                },
+    "entity.firelord.skill_2":  {
+                                    "sounds":  [
+                                                   "eccraft:entity/firelord/firelord_skill_2"
+                                               ]
+                                },
+    "entity.firelord.skill_3":  {
+                                    "sounds":  [
+                                                   "eccraft:entity/firelord/firelord_skill_3"
+                                               ]
+                                },
+    "entity.firelord.death":  {
+                                  "sounds":  [
+                                                 "eccraft:entity/firelord/firelord_death"
+                                             ]
+                              },
+    "music.firelord_battle":  {
+                                  "sounds":  [
+                                                 {
+                                                     "name":  "eccraft:music/firelord_battle",
+                                                     "stream":  true
+                                                 }
+                                             ]
+                              },
+    "entity.nightgod.projectile_explode":  {
+                                               "sounds":  [
+                                                              "eccraft:entity/nightgod/nightgod_projectile_explode"
+                                                          ]
+                                           },
+    "entity.firelord.skill_4":  {
+                                    "sounds":  [
+                                                   "eccraft:entity/firelord/firelord_skill_4"
+                                               ]
+                                },
+    "music.techtain_ark_battle":  {
+                                      "sounds":  [
+                                                     {
+                                                         "name":  "eccraft:music/techtain_ark_battle",
+                                                         "stream":  true
+                                                     }
+                                                 ]
+                                  },
+    "entity.techtain_ark.attack":  {
+                                       "sounds":  [
+                                                      "eccraft:entity/techtain_ark/attack"
+                                                  ]
+                                   },
+    "entity.techtain_ark.skill_1":  {
+                                        "sounds":  [
+                                                       "eccraft:entity/techtain_ark/skill_1"
+                                                   ]
+                                    },
+    "entity.techtain_ark.skill_2":  {
+                                        "sounds":  [
+                                                       "eccraft:entity/techtain_ark/skill_2"
+                                                   ]
+                                    },
+    "entity.techtain_ark.skill_3":  {
+                                        "sounds":  [
+                                                       "eccraft:entity/techtain_ark/skill_3"
+                                                   ]
+                                    },
+    "entity.techtain_ark.stun":  {
+                                     "sounds":  [
+                                                    "eccraft:entity/techtain_ark/stun"
+                                                ]
+                                 },
+    "entity.techtain_ark.recover":  {
+                                        "sounds":  [
+                                                       "eccraft:entity/techtain_ark/recover"
+                                                   ]
+                                    },
+    "entity.techtain_ark.death":  {
+                                      "sounds":  [
+                                                     "eccraft:entity/techtain_ark/death"
+                                                 ]
+                                  },
+    "entity.techtain_ark.coaster_dash":  {
+                                             "sounds":  [
+                                                            "eccraft:entity/techtain_ark/coaster_dash"
+                                                        ]
+                                         },
+    "entity.techtain_ark.box_countdown":  {
+                                              "sounds":  [
+                                                             "eccraft:entity/techtain_ark/box_countdown"
+                                                         ]
+                                          }
+}

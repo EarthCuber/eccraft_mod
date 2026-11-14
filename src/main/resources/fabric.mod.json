@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "eccraft",
+  "version": "${version}",
+  "name": "eccraft",
+  "description": "模组描述",
+  "authors": [
+    "EarthCuber"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/eccraft/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.eccraft.Eccraft",
+      "com.eccraft.landmark.LandmarkSystem"
+    ],
+    "fabric-datagen": [
+      "com.eccraft.EccraftDataGenerator"
+    ],
+    "client": [
+      "com.eccraft.EccraftClient",
+      "com.eccraft.landmark.LandmarkClient"
+    ]
+  },
+  "mixins": [
+    "eccraft.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

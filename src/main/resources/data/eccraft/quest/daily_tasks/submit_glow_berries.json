@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日提交：发光浆果",
+  "description": "提交32个发光浆果。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "submit_item",
+      "target": "minecraft:glow_berries",
+      "count": 32
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:gold_ingot",
+      "min": 8,
+      "max": 8
+    },
+    {
+      "item": "minecraft:glowstone_dust",
+      "min": 16,
+      "max": 16
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/submit_glow_berries"
+}

@@ -1,0 +1,16 @@
+{
+  "speaker": "",
+  "text": "这里主要生产海晶灯，当然也有海晶石和暗海晶石。生鳕鱼一般会被直接销毁。",
+  "options": [
+    {
+      "text": "我明白了。",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:beibin/nether/fish/talk1"
+        }
+      ]
+    }
+  ]
+}

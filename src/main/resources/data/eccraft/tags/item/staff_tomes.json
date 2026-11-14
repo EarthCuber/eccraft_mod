@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "eccraft:staff_tome",
+    "eccraft:tome_t1",
+    "eccraft:tome_t2",
+    "eccraft:tome_t3",
+    "eccraft:tome_t4",
+    "eccraft:tome_t5",
+    "eccraft:legend_tome_1",
+    "eccraft:legend_tome_2",
+    "eccraft:legend_tome_3",
+    "eccraft:legend_tome_4"
+  ]
+}

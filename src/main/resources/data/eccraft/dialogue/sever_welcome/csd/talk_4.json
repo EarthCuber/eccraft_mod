@@ -1,0 +1,10 @@
+{
+  "speaker": "活姐",
+  "text": "从地狱上层能快捷地到达你想去的地方。",
+  "options": [
+    {
+      "text": "↓",
+      "actions": [{"type":"next","dialogue":"eccraft:sever_welcome/csd/talk_5"}]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "description": {
+    "translate": "enchantment.eccraft.shield_wall"
+  },
+  "supported_items": "#eccraft:knight_shields",
+  "weight": 1,
+  "max_level": 3,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 31,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "offhand"
+  ],
+  "effects": {}
+}

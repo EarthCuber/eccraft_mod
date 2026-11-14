@@ -1,0 +1,163 @@
+{
+    "pools":[
+        {
+            "rolls":3,
+            "entries":[
+                {
+                    "type":"minecraft:loot_table",
+                    "value": "eccraft:mineral/netherite_scrap_24"
+                }
+            ]
+        },
+        {
+            "rolls":2,
+            "entries":[
+                {
+                    "type":"minecraft:loot_table",
+                    "value": "eccraft:mineral/diamond_12"
+                }
+            ]
+        },
+        {
+            "rolls":2,
+            "entries":[
+                {
+                    "type":"minecraft:loot_table",
+                    "value": "eccraft:alchemy/broken_t4_bow"
+                }
+            ]
+        },
+        {
+            "rolls":4,
+            "entries":[
+                {
+                    "type":"minecraft:loot_table",
+                    "value": "eccraft:alchemy/broken_t4_sword"
+                }
+            ]
+        },
+        {
+            "rolls":2,
+            "entries":[
+                {
+                    "type":"minecraft:loot_table",
+                    "value": "eccraft:alchemy/broken_t4_staff"
+                }
+            ]
+        },
+        {
+            "rolls":2,
+            "entries":[
+                {
+                    "type":"minecraft:loot_table",
+                    "value": "eccraft:alchemy/plant_t4_archer",
+                    "weight": 1
+                },
+                {
+                    "type":"minecraft:loot_table",
+                    "value": "eccraft:alchemy/plant_t4_knight",
+                    "weight": 1
+                },
+                {
+                    "type":"minecraft:loot_table",
+                    "value": "eccraft:alchemy/plant_t4_mage",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "rolls":6,
+            "entries":[
+                {
+                    "type":"minecraft:loot_table",
+                    "value": "eccraft:alchemy/biology_t4_bone",
+                    "weight": 1
+                },
+                {
+                    "type":"minecraft:loot_table",
+                    "value": "eccraft:alchemy/biology_t4_wing",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "rolls":6,
+            "entries":[
+                {
+                    "type":"minecraft:loot_table",
+                    "value": "eccraft:alchemy/mineral_t4_azurite"
+                },
+                {
+                    "type":"minecraft:loot_table",
+                    "value": "eccraft:alchemy/mineral_t4_kaguya"
+                }
+            ]
+        },
+        {
+            "rolls":2,
+            "entries":[
+                {
+                    "type":"minecraft:loot_table",
+                    "value": "eccraft:alchemy/catalyst_t4_withertear"
+                }
+            ]
+        },
+        {
+            "rolls":2,
+            "entries":[
+                {
+                    "type":"minecraft:loot_table",
+                    "value": "eccraft:alchemy/catalyst_t4_withertear",
+                    "weight": 1
+                },
+                {
+                    "type":"minecraft:loot_table",
+                    "value": "eccraft:empty",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "rolls":4,
+            "entries":[
+                {
+                    "type":"minecraft:loot_table",
+                    "value": "eccraft:alchemy/item_t4_hematite"
+                }
+            ]
+        },
+        {
+            "rolls":2,
+            "entries":[
+                {
+                    "type":"minecraft:loot_table",
+                    "value": "eccraft:alchemy/item_t4_rhizome"
+                }
+            ]
+        },
+        {
+            "rolls":8,
+            "entries":[
+                {
+                    "type":"minecraft:loot_table",
+                    "value": "eccraft:alchemy/item_t4_meteorite",
+                    "weight": 2
+                },
+                {
+                    "type":"minecraft:loot_table",
+                    "value": "eccraft:alchemy/item_t4_fragment",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "rolls":2,
+            "entries":[
+                {
+                    "type":"minecraft:loot_table",
+                    "value": "eccraft:legend_pieces/90"
+                }
+            ]
+        }
+    ]
+}

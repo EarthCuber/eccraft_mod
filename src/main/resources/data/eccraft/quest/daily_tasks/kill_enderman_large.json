@@ -1,0 +1,21 @@
+{
+  "type": "daily",
+  "title": "每日狩猎：末影人",
+  "description": "击杀16只末影人。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "kill",
+      "target": "minecraft:enderman",
+      "count": 16
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:elytra",
+      "min": 1,
+      "max": 1
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/kill_enderman_large"
+}

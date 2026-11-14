@@ -1,0 +1,23 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type":"minecraft:item",
+                    "name":"eccraft:item_alchemy_catalyst_t3_skull",
+                    "functions":[
+                        {
+                            "function":"set_count",
+                            "count":{
+                                "type":"uniform",
+                                "min":15,
+                                "max":25
+                            }
+                        }
+                    ]
+                }
+            ] 
+        }
+    ]
+}

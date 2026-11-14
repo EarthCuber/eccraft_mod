@@ -1,0 +1,51 @@
+{
+  "speaker": "",
+  "text": "欢迎，我是北滨新区的话事人苯环，欢迎来到北滨新区。这是异或服发展较为发达的地方之一。",
+  "options": [
+    {
+      "text": "这是什么地方？",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:beibin/nether/place/talk1"
+        }
+      ]
+    },
+    {
+      "text": "→活姐让我来这。",
+      "conditions": [
+        {
+          "type": "quest_state",
+          "quest": "eccraft:sever_welcome/talk_2",
+          "state": "active"
+        }
+      ],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sever_welcome/beibin_nether/talk1"
+        }
+      ]
+    },
+    {
+      "text": "再见。",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "close"
+        }
+      ]
+    },
+    {
+      "text": "这是什么机器？",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:beibin/nether/fish/talk1"
+        }
+      ]
+    }
+  ]
+}

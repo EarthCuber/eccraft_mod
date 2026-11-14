@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日提交：甜菜根",
+  "description": "提交32个甜菜根。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "submit_item",
+      "target": "minecraft:beetroot",
+      "count": 32
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:emerald",
+      "min": 12,
+      "max": 12
+    },
+    {
+      "item": "minecraft:red_dye",
+      "min": 32,
+      "max": 32
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/submit_beetroot"
+}

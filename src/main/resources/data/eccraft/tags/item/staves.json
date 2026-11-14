@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "eccraft:staff_t1",
+    "eccraft:staff_t2",
+    "eccraft:staff_t3",
+    "eccraft:staff_t4",
+    "eccraft:staff_t5",
+    "eccraft:legend_staff_1",
+    "eccraft:legend_staff_2",
+    "eccraft:legend_staff_3",
+    "eccraft:legend_staff_4",
+    "eccraft:legend_holy_staff_1",
+    "eccraft:legend_holy_staff_2",
+    "eccraft:legend_holy_staff_3",
+    "eccraft:legend_holy_staff_4"
+  ]
+}

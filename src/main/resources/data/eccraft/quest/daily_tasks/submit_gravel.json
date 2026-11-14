@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日提交：沙砾",
+  "description": "提交64个沙砾。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "submit_item",
+      "target": "minecraft:gravel",
+      "count": 64
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:flint",
+      "min": 32,
+      "max": 32
+    },
+    {
+      "item": "minecraft:iron_ingot",
+      "min": 8,
+      "max": 8
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/submit_gravel"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "bbb",
+    "bab",
+    "bbb"
+  ],
+  "key": {
+    "a":"minecraft:ender_eye",
+    "b":"minecraft:ice"
+  },
+  "result": {
+    "id": "eccraft:icewitch_summoning_stone",
+    "count": 16
+  }
+}

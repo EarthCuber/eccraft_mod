@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group":"copper_coin",
+  "ingredients":["eccraft:item_silver_coin"],
+  "result": {
+    "id": "eccraft:item_copper_coin",
+    "count": 9
+  }
+}

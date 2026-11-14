@@ -1,0 +1,25 @@
+{
+  "speaker": "",
+  "text": "传说碎片的爆率如下：T2首领为30%，T3首领为60%，T4首领为90%，T5首领为？？%。其他的首领也有不同概率掉落传说武器碎片。",
+  "options": [
+    {
+      "text": "还想问别的…",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sky_island/legend/start"
+        }
+      ]
+    },
+    {
+      "text": "我明白了。",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "close"
+        }
+      ]
+    }
+  ]
+}

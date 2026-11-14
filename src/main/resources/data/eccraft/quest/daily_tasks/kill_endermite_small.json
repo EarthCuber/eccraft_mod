@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日狩猎：末影螨",
+  "description": "击杀1只末影螨。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "kill",
+      "target": "minecraft:endermite",
+      "count": 1
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:gold_ingot",
+      "min": 8,
+      "max": 8
+    },
+    {
+      "item": "minecraft:ender_pearl",
+      "min": 8,
+      "max": 8
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/kill_endermite_small"
+}

@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日提交：金锭",
+  "description": "提交32个金锭。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "submit_item",
+      "target": "minecraft:gold_ingot",
+      "count": 32
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:diamond",
+      "min": 4,
+      "max": 4
+    },
+    {
+      "item": "minecraft:golden_apple",
+      "min": 2,
+      "max": 2
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/submit_gold_ingot"
+}

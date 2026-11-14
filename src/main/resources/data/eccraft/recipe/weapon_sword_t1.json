@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " b ",
+    " b ",
+    " a "
+  ],
+  "key": {
+    "a":"minecraft:leather",
+    "b":"minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "eccraft:sword_t1",
+    "count": 1
+  }
+}

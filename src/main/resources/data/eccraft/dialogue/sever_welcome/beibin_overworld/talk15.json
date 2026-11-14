@@ -1,0 +1,26 @@
+{
+  "speaker": "",
+  "text": "字面意思。使用传送法杖可以传送到世界上各个预设的传送点，代价是消耗一些经验值。传送法杖由[迷你地球]和[传送法杖框架]组成。这两者可以合成得到。再将这两者交给“金蟒湾”的匠人进行加工，方可得到[传送法杖]。",
+  "options": [
+    {
+      "text": "我会合成，我自己来吧。",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sever_welcome/beibin_overworld/talk18"
+        }
+      ]
+    },
+    {
+      "text": "这两个怎么合成？",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sever_welcome/beibin_overworld/talk16"
+        }
+      ]
+    }
+  ]
+}

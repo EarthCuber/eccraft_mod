@@ -1,0 +1,27 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": [
+          "gui",
+          "ground"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "eccraft:item/sword_t4_2d"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:special",
+      "base": "eccraft:item/sword_t4_base",
+      "model": {
+        "type": "eccraft:staff_glb",
+        "model": "eccraft:models/item/sword_t4.glb",
+        "texture": "eccraft:textures/item/sword_t4.png"
+      }
+    }
+  }
+}

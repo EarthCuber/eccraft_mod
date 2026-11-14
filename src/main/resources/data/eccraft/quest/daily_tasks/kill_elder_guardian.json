@@ -1,0 +1,31 @@
+{
+  "type": "daily",
+  "title": "每日狩猎：远古守卫者",
+  "description": "击杀1只远古守卫者。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "kill",
+      "target": "minecraft:elder_guardian",
+      "count": 1
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:ancient_debris",
+      "min": 2,
+      "max": 2
+    },
+    {
+      "item": "minecraft:wet_sponge",
+      "min": 16,
+      "max": 16
+    },
+    {
+      "item": "minecraft:heart_of_the_sea",
+      "min": 1,
+      "max": 1
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/kill_elder_guardian"
+}

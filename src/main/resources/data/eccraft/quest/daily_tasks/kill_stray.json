@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日狩猎：流浪者",
+  "description": "击杀1只流浪者。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "kill",
+      "target": "minecraft:stray",
+      "count": 1
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:diamond",
+      "min": 4,
+      "max": 4
+    },
+    {
+      "item": "minecraft:powder_snow_bucket",
+      "min": 2,
+      "max": 2
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/kill_stray"
+}

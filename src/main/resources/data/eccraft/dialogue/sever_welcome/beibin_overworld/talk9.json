@@ -1,0 +1,16 @@
+{
+  "speaker": "",
+  "text": "北滨永远欢迎你。",
+  "options": [
+    {
+      "text": "↓",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sever_welcome/beibin_overworld/talk10"
+        }
+      ]
+    }
+  ]
+}

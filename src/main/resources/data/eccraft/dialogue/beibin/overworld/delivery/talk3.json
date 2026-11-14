@@ -1,0 +1,36 @@
+{
+  "speaker": "",
+  "text": "简单地说，就是送货和管理。",
+  "options": [
+    {
+      "text": "我可以加入苯环速递吗？",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:beibin/overworld/delivery/talk4"
+        }
+      ]
+    },
+    {
+      "text": "我如何加入苯环速递？",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:beibin/overworld/delivery/talk8"
+        }
+      ]
+    },
+    {
+      "text": "原来是这样。",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:beibin/overworld/delivery/talk9"
+        }
+      ]
+    }
+  ]
+}

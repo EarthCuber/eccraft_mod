@@ -1,0 +1,48 @@
+{
+  "enchantability": 10,
+  "powerBonus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6
+  ],
+  "tiers": [
+    {
+      "bowPower": 6,
+      "quiverPower": 6,
+      "damageMultiplier": 0.9,
+      "bowDurability": 300,
+      "quiverDurability": 300
+    },
+    {
+      "bowPower": 9,
+      "quiverPower": 9,
+      "damageMultiplier": 0.9,
+      "bowDurability": 600,
+      "quiverDurability": 600
+    },
+    {
+      "bowPower": 12,
+      "quiverPower": 12,
+      "damageMultiplier": 0.9,
+      "bowDurability": 900,
+      "quiverDurability": 900
+    },
+    {
+      "bowPower": 15,
+      "quiverPower": 15,
+      "damageMultiplier": 0.9,
+      "bowDurability": 1200,
+      "quiverDurability": 1200
+    },
+    {
+      "bowPower": 18,
+      "quiverPower": 18,
+      "damageMultiplier": 0.9,
+      "bowDurability": 1500,
+      "quiverDurability": 1500
+    }
+  ]
+}

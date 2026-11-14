@@ -1,0 +1,3 @@
+package com.eccraft.client.npc;
+import com.eccraft.npc.*;import com.google.gson.*;import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;
+public final class NpcClient{public static void register(){ClientPlayNetworking.registerGlobalReceiver(NpcPayloads.Open.TYPE,(p,c)->c.client().execute(()->{JsonObject root=JsonParser.parseString(p.json()).getAsJsonObject();if(!root.has("dialogue")){if(c.client().gui.screen() instanceof NpcDialogueScreen)c.client().setScreenAndShow(null);return;}if(c.client().gui.screen() instanceof NpcDialogueScreen screen && screen.entityId()==p.entityId()){screen.updateDialogue(root);}else{c.client().setScreenAndShow(new NpcDialogueScreen(p.entityId(),root));}}));}private NpcClient(){}}

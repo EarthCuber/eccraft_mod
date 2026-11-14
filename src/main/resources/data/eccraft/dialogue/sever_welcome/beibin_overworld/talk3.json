@@ -1,0 +1,16 @@
+{
+  "speaker": "",
+  "text": "你在来的路上应该也看到了一个塞满村民的玻璃房间，那是我们的村民交易所（村交）。你可以用绿宝石和他们换取装备、附魔书等基础物资。",
+  "options": [
+    {
+      "text": "我刚好有一些绿宝石。",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sever_welcome/beibin_overworld/talk4"
+        }
+      ]
+    }
+  ]
+}

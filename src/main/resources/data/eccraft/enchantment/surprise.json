@@ -1,0 +1,23 @@
+{
+  "description": {
+    "translate": "enchantment.eccraft.surprise"
+  },
+  "supported_items": [
+    "eccraft:flying_trapeze_hammer"
+  ],
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {}
+}

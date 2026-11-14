@@ -1,0 +1,22 @@
+{
+  "type": "one_time",
+  "page": "eccraft:sever_welcome",
+  "title": "首次挑战",
+  "description": "准备好趁手的装备后，击败“鲜美大生蚝”！（需要由你亲手击败才能完成任务）\n如果一个人打不过，可以找小伙伴一起挑战。\n记得将最后一击留给自己！",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "kill",
+      "target": "minecraft:shulker",
+      "count": 1
+    }
+  ],
+  "display_rewards": [
+      {"item":"minecraft:ancient_debris","min":12,"max":20}
+  ],
+  "experience": 10000,
+  "reward_loot_table": "eccraft:quests/sever_welcome/talk_9",
+  "prerequisites": [
+    "eccraft:sever_welcome/talk_8"
+  ]
+}

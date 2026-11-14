@@ -1,0 +1,25 @@
+{
+  "speaker": "",
+  "text": "如果你还在打造最基础的装备，不妨试试它们。",
+  "options": [
+    {
+      "text": "还想问别的…",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sky_island/equipment/start"
+        }
+      ]
+    },
+    {
+      "text": "我明白了。",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "close"
+        }
+      ]
+    }
+  ]
+}

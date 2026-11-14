@@ -1,0 +1,26 @@
+{
+  "type": "daily",
+  "title": "每日狩猎：苦力怕",
+  "description": "击杀4只苦力怕。",
+  "objectives": [
+    {
+      "id": "objective",
+      "type": "kill",
+      "target": "minecraft:creeper",
+      "count": 4
+    }
+  ],
+  "display_rewards": [
+    {
+      "item": "minecraft:gold_ingot",
+      "min": 16,
+      "max": 16
+    },
+    {
+      "item": "minecraft:gunpowder",
+      "min": 128,
+      "max": 128
+    }
+  ],
+  "reward_loot_table": "eccraft:quests/daily_tasks/kill_creeper"
+}

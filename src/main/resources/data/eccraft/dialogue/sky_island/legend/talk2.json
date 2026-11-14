@@ -1,0 +1,25 @@
+{
+  "speaker": "",
+  "text": "传说I阶武器对标T2.5武器，传说II阶武器对标T3.5武器，传说III阶武器对标T4.5武器，传说IV阶武器对标T5.5武器。不仅如此，传说武器的附魔都是最顶级的。这对比T级武器是极大的优势。",
+  "options": [
+    {
+      "text": "还想问别的…",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "next",
+          "dialogue": "eccraft:sky_island/legend/start"
+        }
+      ]
+    },
+    {
+      "text": "我明白了。",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "close"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "speaker": "",
+  "text": "穿过这个地狱门，我在一个沙石材质的建筑里等你。",
+  "options": [
+    {
+      "text": "好的。",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "quest_complete",
+          "quest": "eccraft:sever_welcome/talk_2"
+        },
+        {
+          "type": "quest_accept",
+          "quest": "eccraft:sever_welcome/talk_3"
+        },
+        {
+          "type": "close"
+        }
+      ]
+    }
+  ]
+}
